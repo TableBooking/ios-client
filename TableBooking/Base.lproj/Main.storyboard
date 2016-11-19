@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="qGT-34-b0Z">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--History-->
+        <scene sceneID="pj1-Nd-h8h">
+            <objects>
+                <viewController id="pdP-VN-B9y" customClass="HistoryViewController" customModule="TableBooking" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iz8-2d-hNb"/>
+                        <viewControllerLayoutGuide type="bottom" id="b5J-Nl-WyA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UFd-dB-idn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="History" image="History" id="Il3-5K-Ffz" userLabel="MyTable"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WPK-b4-vGh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="953" y="150"/>
+        </scene>
+        <!--User-->
+        <scene sceneID="xCJ-YL-Pbq">
+            <objects>
+                <viewController id="08U-lc-5TD" customClass="UserViewController" customModule="TableBooking" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Yku-Aj-K0c"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZRT-83-awZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Swk-hP-bxh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="User" image="UserIcon" id="oLq-jf-Eee" userLabel="User"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fhk-QL-9W2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="953" y="819"/>
+        </scene>
+        <!--Search-->
+        <scene sceneID="vSs-iD-7r0">
+            <objects>
+                <viewController id="Hiy-Hi-ECt" customClass="SearchViewController" customModule="TableBooking" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bBg-LH-AQz"/>
+                        <viewControllerLayoutGuide type="bottom" id="kSO-6I-nwk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pIE-Fo-v1Y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Search" image="SearchIcon" id="OA4-5g-8Co" userLabel="Search"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="unP-Uk-Ox0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="953" y="-519"/>
+        </scene>
+        <!--Start Navigation View Controller-->
+        <scene sceneID="gLk-mL-eke">
+            <objects>
+                <navigationController id="qGT-34-b0Z" customClass="StartNavigationViewController" customModule="TableBooking" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TOa-Jj-dnF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="fAA-eO-KII" kind="relationship" relationship="rootViewController" id="uos-qE-3lR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IIj-Xg-dj4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-716" y="242"/>
+        </scene>
+        <!--Start Tab Bar View Controller-->
+        <scene sceneID="bsc-IH-gXu">
+            <objects>
+                <tabBarController id="fAA-eO-KII" customClass="StartTabBarViewController" customModule="TableBooking" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="fFl-gm-qyI"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="luf-65-Lls">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Hiy-Hi-ECt" kind="relationship" relationship="viewControllers" id="dgZ-eM-a2j"/>
+                        <segue destination="pdP-VN-B9y" kind="relationship" relationship="viewControllers" id="dTG-ig-Zda"/>
+                        <segue destination="08U-lc-5TD" kind="relationship" relationship="viewControllers" id="hxI-n0-w4f"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MNz-NV-s7v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="57" y="243"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="History" width="23" height="23"/>
+        <image name="SearchIcon" width="25" height="25"/>
+        <image name="UserIcon" width="25" height="25"/>
+    </resources>
+</document>

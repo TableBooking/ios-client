@@ -1,0 +1,6 @@
+framework module Pods_TableBooking {
+  umbrella header "Pods-TableBooking-umbrella.h"
+
+  export *
+  module * { export * }
+}
