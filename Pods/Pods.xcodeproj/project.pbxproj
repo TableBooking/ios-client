@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1567215A7B4EB507747DE88EC6AB8D72 /* Pods-TableBooking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 785D25CBABD6A82D1DBB7257631F1FE7 /* Pods-TableBooking-dummy.m */; };
-		1B59320A90C290557F450DF343EC055A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		275D845572F5CA345F531B9056463AFA /* Pods-TableBookingTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD5231E4814399F3A05973CB58E7AE9F /* Pods-TableBookingTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2FDDC6EDF186B6B8627C570D2C60EAB9 /* Pods-TableBooking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36544D20513071BF2FB2F01870E6F094 /* Pods-TableBooking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E9965224BB436D26D7604FE7877820B /* Pods-TableBookingUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD847180210236966C7DFCDDE5D7A542 /* Pods-TableBookingUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F65403E3FB1697050B4752F4872B171 /* Pods-TableBookingTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 517C5B8A67F0888DC68395CD74A5234D /* Pods-TableBookingTests-dummy.m */; };
-		A3BF40FE82E05884800467F79755A96D /* Pods-TableBookingUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1405F4CA0655BDA4BF5CAEDF1EE6BB3A /* Pods-TableBookingUITests-dummy.m */; };
-		D48DF91859A272BA6A13EC0C770974A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		FBCCA1D8595E580ED2BD382A836B897F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		282B73B80E01D9135679699027780D09 /* Pods-TableBookingUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1405F4CA0655BDA4BF5CAEDF1EE6BB3A /* Pods-TableBookingUITests-dummy.m */; };
+		3AED9C6E5D24FC1FF5FEAAA8AD69D138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		49682B024A1246AC98E87860ACD9E148 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5EFE17A035C470D7F00995CCA95403E3 /* Pods-TableBookingTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 517C5B8A67F0888DC68395CD74A5234D /* Pods-TableBookingTests-dummy.m */; };
+		6DACE74A39D8B9CA0EA4A0D9B4089B8C /* Pods-TableBooking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36544D20513071BF2FB2F01870E6F094 /* Pods-TableBooking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70C03F6C7E662363C9B958D2341200D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		87912E4DF8AD3E23D2F2C8FF4D7CC716 /* Pods-TableBooking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 785D25CBABD6A82D1DBB7257631F1FE7 /* Pods-TableBooking-dummy.m */; };
+		90C1395265473AA863824702749B8986 /* Pods-TableBookingTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD5231E4814399F3A05973CB58E7AE9F /* Pods-TableBookingTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E372C18A7B8CB7589AEC11BF47AA765C /* Pods-TableBookingUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD847180210236966C7DFCDDE5D7A542 /* Pods-TableBookingUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		00F53E3AE3FB0C0DA14B6F7D6B94ACF1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08B423B7F275E8B7EEAA4E848D9E04C3 /* Pods-TableBookingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TableBookingTests.debug.xcconfig"; sourceTree = "<group>"; };
-		0900EC5E0A18F1B82B84BB78D92A2377 /* Pods_TableBooking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableBooking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0900EC5E0A18F1B82B84BB78D92A2377 /* Pods_TableBooking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TableBooking.framework; path = "Pods-TableBooking.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1405F4CA0655BDA4BF5CAEDF1EE6BB3A /* Pods-TableBookingUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TableBookingUITests-dummy.m"; sourceTree = "<group>"; };
 		1A5187D9EB2CC8DFD29A6413F28D7274 /* Pods-TableBookingUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TableBookingUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		21B5ED910C05B3B7A04D327E911E6632 /* Pods-TableBookingTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TableBookingTests-resources.sh"; sourceTree = "<group>"; };
@@ -29,61 +29,72 @@
 		2B105DADF17A6B7D4421788BEF18889A /* Pods-TableBookingTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TableBookingTests-frameworks.sh"; sourceTree = "<group>"; };
 		36544D20513071BF2FB2F01870E6F094 /* Pods-TableBooking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TableBooking-umbrella.h"; sourceTree = "<group>"; };
 		3A1271EC5266B8756EC06F34D124D364 /* Pods-TableBooking-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TableBooking-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3CDD2EAA88C32787A4C9BBC381ECF9E3 /* Pods-TableBooking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TableBooking.modulemap"; sourceTree = "<group>"; };
-		3E80976F1F47F0FD81017A29E38E1AFC /* Pods-TableBookingUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TableBookingUITests.modulemap"; sourceTree = "<group>"; };
+		3CDD2EAA88C32787A4C9BBC381ECF9E3 /* Pods-TableBooking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TableBooking.modulemap"; sourceTree = "<group>"; };
+		3E80976F1F47F0FD81017A29E38E1AFC /* Pods-TableBookingUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TableBookingUITests.modulemap"; sourceTree = "<group>"; };
 		43DA3AAA7D606A742729890CC53E5A87 /* Pods-TableBookingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TableBookingTests.release.xcconfig"; sourceTree = "<group>"; };
 		4E26625C18385481853E48ED1A309B24 /* Pods-TableBookingUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TableBookingUITests-resources.sh"; sourceTree = "<group>"; };
 		51071B629CD2620E459D8A87B680FC16 /* Pods-TableBookingTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TableBookingTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		517C5B8A67F0888DC68395CD74A5234D /* Pods-TableBookingTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TableBookingTests-dummy.m"; sourceTree = "<group>"; };
 		5AABFDB185087E414A305BFE05BD5C79 /* Pods-TableBookingTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TableBookingTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		653F849BC2732CB3078BF4AB439A19ED /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
 		709829E2DF1E2A568D801790FA8240D8 /* Pods-TableBooking-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TableBooking-acknowledgements.plist"; sourceTree = "<group>"; };
 		785D25CBABD6A82D1DBB7257631F1FE7 /* Pods-TableBooking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TableBooking-dummy.m"; sourceTree = "<group>"; };
-		821E66EF970D37A7D86C789A073B9F09 /* Pods_TableBookingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableBookingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		821E66EF970D37A7D86C789A073B9F09 /* Pods_TableBookingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TableBookingUITests.framework; path = "Pods-TableBookingUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D2A52D82947105C1A80325C6ED67A4 /* Pods-TableBookingUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TableBookingUITests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9C85008ED8E05FF1BF61AD74853FE2FF /* Pods-TableBookingTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TableBookingTests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C85008ED8E05FF1BF61AD74853FE2FF /* Pods-TableBookingTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TableBookingTests.modulemap"; sourceTree = "<group>"; };
 		ABAA86CD7733CFEB27607D3763BC3509 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA2E52F506844790689F91C25A0E62EF /* Pods-TableBookingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TableBookingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BB2B36C280D759CA2B2F8840D7CB5D7D /* Pods-TableBookingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TableBookingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BBE4F111A38DA22556D2C6DCD60CD7BC /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
 		BD5231E4814399F3A05973CB58E7AE9F /* Pods-TableBookingTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TableBookingTests-umbrella.h"; sourceTree = "<group>"; };
 		C3E284034CCE1B410ACDCF35EC1B641C /* Pods-TableBooking-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TableBooking-frameworks.sh"; sourceTree = "<group>"; };
+		C5278AABDE2FEB24A3A46119828FFA5B /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
 		C98BA7A4B962E41B303E917477CBD00E /* Pods-TableBookingUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TableBookingUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CA8C1218379EC3BFFADD26CDACFFB8CA /* Pods-TableBooking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TableBooking.release.xcconfig"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CDF8F0D361B703B63198D2C4ACBDCC79 /* Pods-TableBooking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TableBooking.debug.xcconfig"; sourceTree = "<group>"; };
 		DD847180210236966C7DFCDDE5D7A542 /* Pods-TableBookingUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TableBookingUITests-umbrella.h"; sourceTree = "<group>"; };
 		ECB3FBD32B3152B84057089DCA267620 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB4EFCD8C5A039C70C6A5BAF430A95E4 /* Pods_TableBookingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableBookingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4EFCD8C5A039C70C6A5BAF430A95E4 /* Pods_TableBookingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TableBookingTests.framework; path = "Pods-TableBookingTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A534490DBEDE79A32611E7C4702009AF /* Frameworks */ = {
+		0156147A89A8B8168E782FF3BE3762C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBCCA1D8595E580ED2BD382A836B897F /* Foundation.framework in Frameworks */,
+				3AED9C6E5D24FC1FF5FEAAA8AD69D138 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B09C669C86FB39A329F3831D8C469F2C /* Frameworks */ = {
+		2AC1703C3DE7C2932C5F6BB04B022ADF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D48DF91859A272BA6A13EC0C770974A6 /* Foundation.framework in Frameworks */,
+				70C03F6C7E662363C9B958D2341200D4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF1BF8D0A1C7F7438D42C44B1C2FCD39 /* Frameworks */ = {
+		E3DEFC73798B204EDA5411867CD07440 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B59320A90C290557F450DF343EC055A /* Foundation.framework in Frameworks */,
+				49682B024A1246AC98E87860ACD9E148 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BE4EFFE092A9DA7A925B1DF402E929B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D8F2A686DF2233D7DB9FF40571A826D6 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
 		2F6B713A3CCCF90208EF244BFDF8E08B /* Pods-TableBookingTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +113,23 @@
 			path = "Target Support Files/Pods-TableBookingTests";
 			sourceTree = "<group>";
 		};
+		52901CBE470E0B35F1BD99B5C66A0917 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5278AABDE2FEB24A3A46119828FFA5B /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5E72FE505486D66241C353F0B810A506 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				2BE4EFFE092A9DA7A925B1DF402E929B /* Base */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,9 +143,20 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FDAC1D5BBA8FDEF7E81533A38BCCCBEE /* Pods */,
 				E80149CB7CD9DE99A9BB23C2AC99103A /* Products */,
 				9E7E0E128A1B970DC968ED2FB5CC0EF0 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		82D72D0248F4FCC5BE15387C41E19075 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				FE48C5CAC8E42ECC8DC6F24FB12425EE /* Frameworks */,
+				52901CBE470E0B35F1BD99B5C66A0917 /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
 			sourceTree = "<group>";
 		};
 		9E2E8299CF830AACA7B43F2A470C9CD5 /* Pods-TableBooking */ = {
@@ -156,6 +195,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D8F2A686DF2233D7DB9FF40571A826D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBE4F111A38DA22556D2C6DCD60CD7BC /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E3264DB431F806A1382D1C4412E02A80 /* Pods-TableBookingUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,60 +231,60 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		FDAC1D5BBA8FDEF7E81533A38BCCCBEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E72FE505486D66241C353F0B810A506 /* GoogleMaps */,
+				82D72D0248F4FCC5BE15387C41E19075 /* GooglePlaces */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE48C5CAC8E42ECC8DC6F24FB12425EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				653F849BC2732CB3078BF4AB439A19ED /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		079FC1413CE74D8B300845894BE4F1A5 /* Headers */ = {
+		7CD940396D02D1EDDD891A01C8B46A2A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E9965224BB436D26D7604FE7877820B /* Pods-TableBookingUITests-umbrella.h in Headers */,
+				6DACE74A39D8B9CA0EA4A0D9B4089B8C /* Pods-TableBooking-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2EE77F62C731AD7DA4A3F99922EB848F /* Headers */ = {
+		8E806A5AB2F1056A1C46209C09FE5AAF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FDDC6EDF186B6B8627C570D2C60EAB9 /* Pods-TableBooking-umbrella.h in Headers */,
+				E372C18A7B8CB7589AEC11BF47AA765C /* Pods-TableBookingUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		830D3A5813154128CFC8ED12E2AAB027 /* Headers */ = {
+		94E480AAE78EDDF4DBC9CF0CF5D92A4C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				275D845572F5CA345F531B9056463AFA /* Pods-TableBookingTests-umbrella.h in Headers */,
+				90C1395265473AA863824702749B8986 /* Pods-TableBookingTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0E6E6ACEAFC496BF3519290A924FD419 /* Pods-TableBooking */ = {
+		1972A31D6136713FD6FBAA4989B0D0FA /* Pods-TableBookingUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A81904EE09F411E99BD6EF9EE85431A /* Build configuration list for PBXNativeTarget "Pods-TableBooking" */;
+			buildConfigurationList = CA2FE2D1BF7C9C24AB293BA2093CB254 /* Build configuration list for PBXNativeTarget "Pods-TableBookingUITests" */;
 			buildPhases = (
-				8077BD63944A1C2AD6B60F91DC96F83F /* Sources */,
-				B09C669C86FB39A329F3831D8C469F2C /* Frameworks */,
-				2EE77F62C731AD7DA4A3F99922EB848F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-TableBooking";
-			productName = "Pods-TableBooking";
-			productReference = 0900EC5E0A18F1B82B84BB78D92A2377 /* Pods_TableBooking.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		84A1107735550714B70FE2B3AF4CC810 /* Pods-TableBookingUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AA04EB2F6914D9472CD3D261D97B1299 /* Build configuration list for PBXNativeTarget "Pods-TableBookingUITests" */;
-			buildPhases = (
-				5F530935E41F8DCE1B846A13CC458AE9 /* Sources */,
-				CF1BF8D0A1C7F7438D42C44B1C2FCD39 /* Frameworks */,
-				079FC1413CE74D8B300845894BE4F1A5 /* Headers */,
+				DE88C32491ECAD44C80F9BAA1C20985E /* Sources */,
+				2AC1703C3DE7C2932C5F6BB04B022ADF /* Frameworks */,
+				8E806A5AB2F1056A1C46209C09FE5AAF /* Headers */,
 			);
 			buildRules = (
 			);
@@ -248,13 +295,13 @@
 			productReference = 821E66EF970D37A7D86C789A073B9F09 /* Pods_TableBookingUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DD2964155343473E3CD6A95923782CED /* Pods-TableBookingTests */ = {
+		24EF6208A94699D2588F5C4BFB71B3B0 /* Pods-TableBookingTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A79DF861563FF181990D2AA01EB33051 /* Build configuration list for PBXNativeTarget "Pods-TableBookingTests" */;
+			buildConfigurationList = 55D5EAB75AAD6B43487AC592628C8AD5 /* Build configuration list for PBXNativeTarget "Pods-TableBookingTests" */;
 			buildPhases = (
-				F57E8ECBEEE1FEB88B511C56F5C0235C /* Sources */,
-				A534490DBEDE79A32611E7C4702009AF /* Frameworks */,
-				830D3A5813154128CFC8ED12E2AAB027 /* Headers */,
+				92A20A869841D6D967B2DBB1B77E6627 /* Sources */,
+				E3DEFC73798B204EDA5411867CD07440 /* Frameworks */,
+				94E480AAE78EDDF4DBC9CF0CF5D92A4C /* Headers */,
 			);
 			buildRules = (
 			);
@@ -263,6 +310,23 @@
 			name = "Pods-TableBookingTests";
 			productName = "Pods-TableBookingTests";
 			productReference = FB4EFCD8C5A039C70C6A5BAF430A95E4 /* Pods_TableBookingTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		736EDEA25471C7648B2014DC946F7488 /* Pods-TableBooking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D17EFECE8C8EDC44C7A3E82D69475649 /* Build configuration list for PBXNativeTarget "Pods-TableBooking" */;
+			buildPhases = (
+				D05F2B82CB411954C6265A84A35AE0A7 /* Sources */,
+				0156147A89A8B8168E782FF3BE3762C0 /* Frameworks */,
+				7CD940396D02D1EDDD891A01C8B46A2A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TableBooking";
+			productName = "Pods-TableBooking";
+			productReference = 0900EC5E0A18F1B82B84BB78D92A2377 /* Pods_TableBooking.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -286,44 +350,79 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0E6E6ACEAFC496BF3519290A924FD419 /* Pods-TableBooking */,
-				DD2964155343473E3CD6A95923782CED /* Pods-TableBookingTests */,
-				84A1107735550714B70FE2B3AF4CC810 /* Pods-TableBookingUITests */,
+				736EDEA25471C7648B2014DC946F7488 /* Pods-TableBooking */,
+				24EF6208A94699D2588F5C4BFB71B3B0 /* Pods-TableBookingTests */,
+				1972A31D6136713FD6FBAA4989B0D0FA /* Pods-TableBookingUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5F530935E41F8DCE1B846A13CC458AE9 /* Sources */ = {
+		92A20A869841D6D967B2DBB1B77E6627 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3BF40FE82E05884800467F79755A96D /* Pods-TableBookingUITests-dummy.m in Sources */,
+				5EFE17A035C470D7F00995CCA95403E3 /* Pods-TableBookingTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8077BD63944A1C2AD6B60F91DC96F83F /* Sources */ = {
+		D05F2B82CB411954C6265A84A35AE0A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1567215A7B4EB507747DE88EC6AB8D72 /* Pods-TableBooking-dummy.m in Sources */,
+				87912E4DF8AD3E23D2F2C8FF4D7CC716 /* Pods-TableBooking-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F57E8ECBEEE1FEB88B511C56F5C0235C /* Sources */ = {
+		DE88C32491ECAD44C80F9BAA1C20985E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F65403E3FB1697050B4752F4872B171 /* Pods-TableBookingTests-dummy.m in Sources */,
+				282B73B80E01D9135679699027780D09 /* Pods-TableBookingUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		07CE6230800B19052C356529EAA646DE /* Release */ = {
+		02123EF8B5BED64C08B00D7E45F52100 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB2B36C280D759CA2B2F8840D7CB5D7D /* Pods-TableBookingUITests.release.xcconfig */;
+			baseConfigurationReference = CDF8F0D361B703B63198D2C4ACBDCC79 /* Pods-TableBooking.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TableBooking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TableBooking/Pods-TableBooking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TableBooking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		101315759F386887F595C776669BB761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43DA3AAA7D606A742729890CC53E5A87 /* Pods-TableBookingTests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -336,18 +435,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TableBookingUITests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TableBookingTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TableBookingUITests/Pods-TableBookingUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-TableBookingTests/Pods-TableBookingTests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TableBookingUITests;
+				PRODUCT_NAME = Pods_TableBookingTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -400,42 +499,7 @@
 			};
 			name = Debug;
 		};
-		6478CA8611B75281A51B600CE5B5F66F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA2E52F506844790689F91C25A0E62EF /* Pods-TableBookingUITests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TableBookingUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TableBookingUITests/Pods-TableBookingUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TableBookingUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		800500E5ED1B3A1FDE3012C2771373A7 /* Debug */ = {
+		30BFC4A1452666A770AB40001D545867 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 08B423B7F275E8B7EEAA4E848D9E04C3 /* Pods-TableBookingTests.debug.xcconfig */;
 			buildSettings = {
@@ -470,44 +534,9 @@
 			};
 			name = Debug;
 		};
-		AE63CF6245408C3D83387A5AD0409F54 /* Debug */ = {
+		636F1FF1667278E20D7DB1DE06E3F61B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDF8F0D361B703B63198D2C4ACBDCC79 /* Pods-TableBooking.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TableBooking/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TableBooking/Pods-TableBooking.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TableBooking;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BD944777039559D918EA0876011A94D1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43DA3AAA7D606A742729890CC53E5A87 /* Pods-TableBookingTests.release.xcconfig */;
+			baseConfigurationReference = CA8C1218379EC3BFFADD26CDACFFB8CA /* Pods-TableBooking.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -520,18 +549,88 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TableBookingTests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TableBooking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TableBookingTests/Pods-TableBookingTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-TableBooking/Pods-TableBooking.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TableBookingTests;
+				PRODUCT_NAME = Pods_TableBooking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		707C0BAE4619C3412EEE6C7EE7F13B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA2E52F506844790689F91C25A0E62EF /* Pods-TableBookingUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TableBookingUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TableBookingUITests/Pods-TableBookingUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TableBookingUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81E483B6B2D3A3A1B5AE3AA5666D5BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB2B36C280D759CA2B2F8840D7CB5D7D /* Pods-TableBookingUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TableBookingUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TableBookingUITests/Pods-TableBookingUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TableBookingUITests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -580,41 +679,6 @@
 			};
 			name = Release;
 		};
-		F20EC16EB7D1EB6794EFF9723F22A8BC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA8C1218379EC3BFFADD26CDACFFB8CA /* Pods-TableBooking.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TableBooking/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TableBooking/Pods-TableBooking.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TableBooking;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -627,29 +691,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A81904EE09F411E99BD6EF9EE85431A /* Build configuration list for PBXNativeTarget "Pods-TableBooking" */ = {
+		55D5EAB75AAD6B43487AC592628C8AD5 /* Build configuration list for PBXNativeTarget "Pods-TableBookingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE63CF6245408C3D83387A5AD0409F54 /* Debug */,
-				F20EC16EB7D1EB6794EFF9723F22A8BC /* Release */,
+				30BFC4A1452666A770AB40001D545867 /* Debug */,
+				101315759F386887F595C776669BB761 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A79DF861563FF181990D2AA01EB33051 /* Build configuration list for PBXNativeTarget "Pods-TableBookingTests" */ = {
+		CA2FE2D1BF7C9C24AB293BA2093CB254 /* Build configuration list for PBXNativeTarget "Pods-TableBookingUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				800500E5ED1B3A1FDE3012C2771373A7 /* Debug */,
-				BD944777039559D918EA0876011A94D1 /* Release */,
+				707C0BAE4619C3412EEE6C7EE7F13B5A /* Debug */,
+				81E483B6B2D3A3A1B5AE3AA5666D5BE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA04EB2F6914D9472CD3D261D97B1299 /* Build configuration list for PBXNativeTarget "Pods-TableBookingUITests" */ = {
+		D17EFECE8C8EDC44C7A3E82D69475649 /* Build configuration list for PBXNativeTarget "Pods-TableBooking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6478CA8611B75281A51B600CE5B5F66F /* Debug */,
-				07CE6230800B19052C356529EAA646DE /* Release */,
+				02123EF8B5BED64C08B00D7E45F52100 /* Debug */,
+				636F1FF1667278E20D7DB1DE06E3F61B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

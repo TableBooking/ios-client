@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TableBooking/SearchViewController.swift"
+            timestampString = "501295625.302841"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "SearchViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TableBooking.SearchViewController.__deallocating_deinit"
+                  moduleName = "TableBooking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirichek/Documents/Projects/TableBooking/TableBookingDev/ios-client/TableBooking/SearchViewController.swift"
+                  timestampString = "501294533.612027"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TableBooking.SearchViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; TableBooking.SearchViewController"
+                  moduleName = "TableBooking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirichek/Documents/Projects/TableBooking/TableBookingDev/ios-client/TableBooking/SearchViewController.swift"
+                  timestampString = "501294533.658534"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TableBooking.SearchViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; TableBooking.SearchViewController"
+                  moduleName = "TableBooking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirichek/Documents/Projects/TableBooking/TableBookingDev/ios-client/TableBooking/SearchViewController.swift"
+                  timestampString = "501294533.661192"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TableBooking.SearchViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;TableBooking.SearchViewController&gt;"
+                  moduleName = "TableBooking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirichek/Documents/Projects/TableBooking/TableBookingDev/ios-client/TableBooking/SearchViewController.swift"
+                  timestampString = "501294533.663871"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TableBooking.SearchViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;TableBooking.SearchViewController&gt;"
+                  moduleName = "TableBooking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirichek/Documents/Projects/TableBooking/TableBookingDev/ios-client/TableBooking/SearchViewController.swift"
+                  timestampString = "501294533.666284"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

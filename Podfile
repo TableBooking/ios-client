@@ -6,10 +6,11 @@ target 'TableBooking' do
   use_frameworks!
 
   # Pods for TableBooking
+  pod ‘GooglePlaces’
 
   target 'TableBookingTests' do
     inherit! :search_paths
-    # Pods for testingn
+    # Pods for testing
   end
 
   target 'TableBookingUITests' do

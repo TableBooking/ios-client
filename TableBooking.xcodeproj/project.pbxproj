@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08031BCA5CE7A1F9B6B5C903 /* Pods_TableBookingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E53B6D81F4A5ECD27F20BBE /* Pods_TableBookingUITests.framework */; };
 		341596421DBCD92D00A5D68C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341596411DBCD92D00A5D68C /* AppDelegate.swift */; };
 		341596471DBCD92D00A5D68C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341596451DBCD92D00A5D68C /* Main.storyboard */; };
 		3415964A1DBCD92D00A5D68C /* TableBooking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 341596481DBCD92D00A5D68C /* TableBooking.xcdatamodeld */; };
@@ -15,14 +16,17 @@
 		3415965A1DBCD92D00A5D68C /* TableBookingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341596591DBCD92D00A5D68C /* TableBookingTests.swift */; };
 		341596651DBCD92D00A5D68C /* TableBookingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341596641DBCD92D00A5D68C /* TableBookingUITests.swift */; };
 		341596731DBD70D000A5D68C /* TBColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341596721DBD70D000A5D68C /* TBColors.swift */; };
+		34172AC61DE1BA340005EAAA /* NMRangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 34172AC51DE1BA340005EAAA /* NMRangeSlider.m */; };
+		34172ACA1DE1C0730005EAAA /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34172AC91DE1C0730005EAAA /* FilterViewController.swift */; };
+		34172AD51DE1F85E0005EAAA /* Numebers+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34172AD41DE1F85E0005EAAA /* Numebers+Format.swift */; };
+		3495A4A71DE105D1005503E3 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3495A4A61DE105D1005503E3 /* RestaurantTableViewCell.swift */; };
 		34F4958F1DDFC66000DF791E /* StartNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F4958E1DDFC66000DF791E /* StartNavigationViewController.swift */; };
 		34F495911DDFCB0600DF791E /* StartTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F495901DDFCB0600DF791E /* StartTabBarViewController.swift */; };
 		34F495931DDFD04C00DF791E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F495921DDFD04C00DF791E /* SearchViewController.swift */; };
 		34F495951DDFD0AC00DF791E /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F495941DDFD0AC00DF791E /* HistoryViewController.swift */; };
 		34F495971DDFD10B00DF791E /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F495961DDFD10B00DF791E /* UserViewController.swift */; };
-		412C109D61E2A8AF64FF78CB /* Pods_TableBooking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7240C9238D8EBD77AA6DC3F5 /* Pods_TableBooking.framework */; };
-		717BA5E1F13BA039C7020426 /* Pods_TableBookingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 336211470252CE93F9B707B9 /* Pods_TableBookingTests.framework */; };
-		8214F740BCF26BC71621846B /* Pods_TableBookingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD2DC910E28A7E7017ED26E /* Pods_TableBookingUITests.framework */; };
+		71211B7D2B905C8E0BF3B0AD /* Pods_TableBookingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F42D33B53094F22B0525DB /* Pods_TableBookingTests.framework */; };
+		F72F3BE7B6ECB07B5828AF58 /* Pods_TableBooking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D872F65A240F385A5BA517A /* Pods_TableBooking.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,10 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03418A77419EAC0F8AE72DAB /* Pods-TableBooking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableBooking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableBooking/Pods-TableBooking.debug.xcconfig"; sourceTree = "<group>"; };
-		0CBBD2C3F3BBA352B11FDFF3 /* Pods-TableBookingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableBookingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableBookingTests/Pods-TableBookingTests.release.xcconfig"; sourceTree = "<group>"; };
-		22C317FF7CBE6348A888CA60 /* Pods-TableBookingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableBookingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableBookingTests/Pods-TableBookingTests.debug.xcconfig"; sourceTree = "<group>"; };
-		336211470252CE93F9B707B9 /* Pods_TableBookingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableBookingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20DB233ED1B0843D3DAC9E7D /* Pods-TableBookingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableBookingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableBookingUITests/Pods-TableBookingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D872F65A240F385A5BA517A /* Pods_TableBooking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableBooking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E53B6D81F4A5ECD27F20BBE /* Pods_TableBookingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableBookingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32279C62F9BC4A94B4CC5D1C /* Pods-TableBooking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableBooking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableBooking/Pods-TableBooking.debug.xcconfig"; sourceTree = "<group>"; };
 		3415963E1DBCD92D00A5D68C /* TableBooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableBooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		341596411DBCD92D00A5D68C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		341596461DBCD92D00A5D68C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,16 +65,22 @@
 		341596641DBCD92D00A5D68C /* TableBookingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableBookingUITests.swift; sourceTree = "<group>"; };
 		341596661DBCD92D00A5D68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		341596721DBD70D000A5D68C /* TBColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBColors.swift; sourceTree = "<group>"; };
+		34172AC31DE1BA330005EAAA /* TableBooking-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableBooking-Bridging-Header.h"; sourceTree = "<group>"; };
+		34172AC41DE1BA340005EAAA /* NMRangeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMRangeSlider.h; sourceTree = "<group>"; };
+		34172AC51DE1BA340005EAAA /* NMRangeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMRangeSlider.m; sourceTree = "<group>"; };
+		34172AC91DE1C0730005EAAA /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		34172AD41DE1F85E0005EAAA /* Numebers+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Numebers+Format.swift"; sourceTree = "<group>"; };
+		3495A4A61DE105D1005503E3 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
 		34F4958E1DDFC66000DF791E /* StartNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartNavigationViewController.swift; sourceTree = "<group>"; };
 		34F495901DDFCB0600DF791E /* StartTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartTabBarViewController.swift; sourceTree = "<group>"; };
 		34F495921DDFD04C00DF791E /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		34F495941DDFD0AC00DF791E /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		34F495961DDFD10B00DF791E /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
-		4AD2DC910E28A7E7017ED26E /* Pods_TableBookingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableBookingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F32271602F40EADD7F547FB /* Pods-TableBookingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableBookingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableBookingUITests/Pods-TableBookingUITests.release.xcconfig"; sourceTree = "<group>"; };
-		7240C9238D8EBD77AA6DC3F5 /* Pods_TableBooking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableBooking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9D3B9A1D328B956CBCD0857 /* Pods-TableBookingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableBookingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableBookingUITests/Pods-TableBookingUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		D368C7D418C3091C125D7DED /* Pods-TableBooking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableBooking.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableBooking/Pods-TableBooking.release.xcconfig"; sourceTree = "<group>"; };
+		66B5D4E9BFDB7B1EAB2A16A6 /* Pods-TableBookingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableBookingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableBookingTests/Pods-TableBookingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		75F42D33B53094F22B0525DB /* Pods_TableBookingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableBookingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		769857275A8C5B7B59B049A5 /* Pods-TableBookingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableBookingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableBookingTests/Pods-TableBookingTests.release.xcconfig"; sourceTree = "<group>"; };
+		859E1CD5EFA8303704C23195 /* Pods-TableBookingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableBookingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableBookingUITests/Pods-TableBookingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		95D053175D05A691FEFA33A1 /* Pods-TableBooking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableBooking.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableBooking/Pods-TableBooking.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				412C109D61E2A8AF64FF78CB /* Pods_TableBooking.framework in Frameworks */,
+				F72F3BE7B6ECB07B5828AF58 /* Pods_TableBooking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				717BA5E1F13BA039C7020426 /* Pods_TableBookingTests.framework in Frameworks */,
+				71211B7D2B905C8E0BF3B0AD /* Pods_TableBookingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,21 +104,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8214F740BCF26BC71621846B /* Pods_TableBookingUITests.framework in Frameworks */,
+				08031BCA5CE7A1F9B6B5C903 /* Pods_TableBookingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A9C0A42DC7A2573EA7FC5E7 /* Frameworks */ = {
+		16E7407C7241B983570B02F4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7240C9238D8EBD77AA6DC3F5 /* Pods_TableBooking.framework */,
-				336211470252CE93F9B707B9 /* Pods_TableBookingTests.framework */,
-				4AD2DC910E28A7E7017ED26E /* Pods_TableBookingUITests.framework */,
+				32279C62F9BC4A94B4CC5D1C /* Pods-TableBooking.debug.xcconfig */,
+				95D053175D05A691FEFA33A1 /* Pods-TableBooking.release.xcconfig */,
+				66B5D4E9BFDB7B1EAB2A16A6 /* Pods-TableBookingTests.debug.xcconfig */,
+				769857275A8C5B7B59B049A5 /* Pods-TableBookingTests.release.xcconfig */,
+				20DB233ED1B0843D3DAC9E7D /* Pods-TableBookingUITests.debug.xcconfig */,
+				859E1CD5EFA8303704C23195 /* Pods-TableBookingUITests.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		341596351DBCD92C00A5D68C = {
@@ -118,8 +131,8 @@
 				341596581DBCD92D00A5D68C /* TableBookingTests */,
 				341596631DBCD92D00A5D68C /* TableBookingUITests */,
 				3415963F1DBCD92D00A5D68C /* Products */,
-				BBEC61E6F03248B5763FF9E2 /* Pods */,
-				2A9C0A42DC7A2573EA7FC5E7 /* Frameworks */,
+				16E7407C7241B983570B02F4 /* Pods */,
+				B4C195203F24741F75D9EAAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +149,7 @@
 		341596401DBCD92D00A5D68C /* TableBooking */ = {
 			isa = PBXGroup;
 			children = (
+				34172AD11DE1ED110005EAAA /* Helpers */,
 				34F495871DDF9F5D00DF791E /* Model */,
 				34F495861DDF9F5A00DF791E /* View */,
 				34F495851DDF9F5700DF791E /* Controller */,
@@ -163,6 +177,32 @@
 			path = TableBookingUITests;
 			sourceTree = "<group>";
 		};
+		34172AC71DE1BF620005EAAA /* External views */ = {
+			isa = PBXGroup;
+			children = (
+				34172AC81DE1BF730005EAAA /* NMRangeSlider */,
+			);
+			name = "External views";
+			sourceTree = "<group>";
+		};
+		34172AC81DE1BF730005EAAA /* NMRangeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				34172AC41DE1BA340005EAAA /* NMRangeSlider.h */,
+				34172AC51DE1BA340005EAAA /* NMRangeSlider.m */,
+				34172AC31DE1BA330005EAAA /* TableBooking-Bridging-Header.h */,
+			);
+			name = NMRangeSlider;
+			sourceTree = "<group>";
+		};
+		34172AD11DE1ED110005EAAA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				34172AD41DE1F85E0005EAAA /* Numebers+Format.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		34F495851DDF9F5700DF791E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +211,7 @@
 				34F495921DDFD04C00DF791E /* SearchViewController.swift */,
 				34F495941DDFD0AC00DF791E /* HistoryViewController.swift */,
 				34F495961DDFD10B00DF791E /* UserViewController.swift */,
+				34172AC91DE1C0730005EAAA /* FilterViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -180,6 +221,7 @@
 			children = (
 				34F4958A1DDFA43D00DF791E /* Common */,
 				34F4958D1DDFA6D200DF791E /* Search */,
+				34172AC71DE1BF620005EAAA /* External views */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -222,21 +264,19 @@
 		34F4958D1DDFA6D200DF791E /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				3495A4A61DE105D1005503E3 /* RestaurantTableViewCell.swift */,
 			);
 			name = Search;
 			sourceTree = "<group>";
 		};
-		BBEC61E6F03248B5763FF9E2 /* Pods */ = {
+		B4C195203F24741F75D9EAAF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				03418A77419EAC0F8AE72DAB /* Pods-TableBooking.debug.xcconfig */,
-				D368C7D418C3091C125D7DED /* Pods-TableBooking.release.xcconfig */,
-				22C317FF7CBE6348A888CA60 /* Pods-TableBookingTests.debug.xcconfig */,
-				0CBBD2C3F3BBA352B11FDFF3 /* Pods-TableBookingTests.release.xcconfig */,
-				B9D3B9A1D328B956CBCD0857 /* Pods-TableBookingUITests.debug.xcconfig */,
-				4F32271602F40EADD7F547FB /* Pods-TableBookingUITests.release.xcconfig */,
+				2D872F65A240F385A5BA517A /* Pods_TableBooking.framework */,
+				75F42D33B53094F22B0525DB /* Pods_TableBookingTests.framework */,
+				2E53B6D81F4A5ECD27F20BBE /* Pods_TableBookingUITests.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,12 +286,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 341596691DBCD92D00A5D68C /* Build configuration list for PBXNativeTarget "TableBooking" */;
 			buildPhases = (
-				F284316EB8C781DAA50758C4 /* [CP] Check Pods Manifest.lock */,
+				9C375D406BF40A4BD3E41491 /* [CP] Check Pods Manifest.lock */,
 				3415963A1DBCD92C00A5D68C /* Sources */,
 				3415963B1DBCD92C00A5D68C /* Frameworks */,
 				3415963C1DBCD92C00A5D68C /* Resources */,
-				DA73409228CBFAEA308ABDAA /* [CP] Embed Pods Frameworks */,
-				147C0CE3139F008C4E438210 /* [CP] Copy Pods Resources */,
+				55A4EB620E5BC56381E05699 /* [CP] Embed Pods Frameworks */,
+				15EA5105A6A479BEAB83D8B2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,12 +306,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3415966C1DBCD92D00A5D68C /* Build configuration list for PBXNativeTarget "TableBookingTests" */;
 			buildPhases = (
-				4EDB8A54589007C508FBDFA0 /* [CP] Check Pods Manifest.lock */,
+				7EB7CB87CCEC570E9F5B5CDB /* [CP] Check Pods Manifest.lock */,
 				341596511DBCD92D00A5D68C /* Sources */,
 				341596521DBCD92D00A5D68C /* Frameworks */,
 				341596531DBCD92D00A5D68C /* Resources */,
-				87D3E9346461A2FC6F24F8F7 /* [CP] Embed Pods Frameworks */,
-				2FF28A6BE041B726648AB06A /* [CP] Copy Pods Resources */,
+				DC6301AA1DC7E550AF541866 /* [CP] Embed Pods Frameworks */,
+				22F5C17E7679CB1381A02987 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -287,12 +327,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3415966F1DBCD92D00A5D68C /* Build configuration list for PBXNativeTarget "TableBookingUITests" */;
 			buildPhases = (
-				D2CEEC665BFA2529E615BBC7 /* [CP] Check Pods Manifest.lock */,
+				5F3FDEC3762689F10C7DC721 /* [CP] Check Pods Manifest.lock */,
 				3415965C1DBCD92D00A5D68C /* Sources */,
 				3415965D1DBCD92D00A5D68C /* Frameworks */,
 				3415965E1DBCD92D00A5D68C /* Resources */,
-				1FAEE53DBC57185C9A57B7A9 /* [CP] Embed Pods Frameworks */,
-				0484B87EF5C2EDBF75AA1691 /* [CP] Copy Pods Resources */,
+				BB5AF74A688F9A4747E2E01A /* [CP] Embed Pods Frameworks */,
+				DEF80237CF54054A24ABA1B6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -311,12 +351,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Nikita Kirichek";
 				TargetAttributes = {
 					3415963D1DBCD92C00A5D68C = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = YSVD2VLRXZ;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					341596541DBCD92D00A5D68C = {
@@ -381,22 +422,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0484B87EF5C2EDBF75AA1691 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableBookingUITests/Pods-TableBookingUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		147C0CE3139F008C4E438210 /* [CP] Copy Pods Resources */ = {
+		15EA5105A6A479BEAB83D8B2 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -411,22 +437,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableBooking/Pods-TableBooking-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1FAEE53DBC57185C9A57B7A9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableBookingUITests/Pods-TableBookingUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2FF28A6BE041B726648AB06A /* [CP] Copy Pods Resources */ = {
+		22F5C17E7679CB1381A02987 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -441,52 +452,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableBookingTests/Pods-TableBookingTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4EDB8A54589007C508FBDFA0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		87D3E9346461A2FC6F24F8F7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableBookingTests/Pods-TableBookingTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D2CEEC665BFA2529E615BBC7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		DA73409228CBFAEA308ABDAA /* [CP] Embed Pods Frameworks */ = {
+		55A4EB620E5BC56381E05699 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -501,7 +467,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableBooking/Pods-TableBooking-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F284316EB8C781DAA50758C4 /* [CP] Check Pods Manifest.lock */ = {
+		5F3FDEC3762689F10C7DC721 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -516,6 +482,81 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		7EB7CB87CCEC570E9F5B5CDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C375D406BF40A4BD3E41491 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB5AF74A688F9A4747E2E01A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableBookingUITests/Pods-TableBookingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC6301AA1DC7E550AF541866 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableBookingTests/Pods-TableBookingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEF80237CF54054A24ABA1B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableBookingUITests/Pods-TableBookingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -526,10 +567,14 @@
 				34F495931DDFD04C00DF791E /* SearchViewController.swift in Sources */,
 				34F495971DDFD10B00DF791E /* UserViewController.swift in Sources */,
 				341596731DBD70D000A5D68C /* TBColors.swift in Sources */,
+				34172AC61DE1BA340005EAAA /* NMRangeSlider.m in Sources */,
 				34F495911DDFCB0600DF791E /* StartTabBarViewController.swift in Sources */,
+				34172ACA1DE1C0730005EAAA /* FilterViewController.swift in Sources */,
 				3415964A1DBCD92D00A5D68C /* TableBooking.xcdatamodeld in Sources */,
 				341596421DBCD92D00A5D68C /* AppDelegate.swift in Sources */,
 				34F495951DDFD0AC00DF791E /* HistoryViewController.swift in Sources */,
+				34172AD51DE1F85E0005EAAA /* Numebers+Format.swift in Sources */,
+				3495A4A71DE105D1005503E3 /* RestaurantTableViewCell.swift in Sources */,
 				34F4958F1DDFC66000DF791E /* StartNavigationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -603,6 +648,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -652,6 +698,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -678,35 +725,40 @@
 		};
 		3415966A1DBCD92D00A5D68C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03418A77419EAC0F8AE72DAB /* Pods-TableBooking.debug.xcconfig */;
+			baseConfigurationReference = 32279C62F9BC4A94B4CC5D1C /* Pods-TableBooking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = YSVD2VLRXZ;
 				INFOPLIST_FILE = TableBooking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kpi.university.TableBooking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TableBooking/TableBooking-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		3415966B1DBCD92D00A5D68C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D368C7D418C3091C125D7DED /* Pods-TableBooking.release.xcconfig */;
+			baseConfigurationReference = 95D053175D05A691FEFA33A1 /* Pods-TableBooking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = YSVD2VLRXZ;
 				INFOPLIST_FILE = TableBooking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kpi.university.TableBooking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TableBooking/TableBooking-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		3415966D1DBCD92D00A5D68C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22C317FF7CBE6348A888CA60 /* Pods-TableBookingTests.debug.xcconfig */;
+			baseConfigurationReference = 66B5D4E9BFDB7B1EAB2A16A6 /* Pods-TableBookingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -722,7 +774,7 @@
 		};
 		3415966E1DBCD92D00A5D68C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CBBD2C3F3BBA352B11FDFF3 /* Pods-TableBookingTests.release.xcconfig */;
+			baseConfigurationReference = 769857275A8C5B7B59B049A5 /* Pods-TableBookingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -738,7 +790,7 @@
 		};
 		341596701DBCD92D00A5D68C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9D3B9A1D328B956CBCD0857 /* Pods-TableBookingUITests.debug.xcconfig */;
+			baseConfigurationReference = 20DB233ED1B0843D3DAC9E7D /* Pods-TableBookingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = YSVD2VLRXZ;
@@ -753,7 +805,7 @@
 		};
 		341596711DBCD92D00A5D68C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F32271602F40EADD7F547FB /* Pods-TableBookingUITests.release.xcconfig */;
+			baseConfigurationReference = 859E1CD5EFA8303704C23195 /* Pods-TableBookingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = YSVD2VLRXZ;

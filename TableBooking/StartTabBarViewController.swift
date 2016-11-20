@@ -14,6 +14,8 @@ class StartTabBarViewController: UITabBarController {
         super.viewDidLoad()
         
         UITabBar.appearance().tintColor = UIColor.TBGreenColor()
+        
+     
     }
 
     override func didReceiveMemoryWarning() {

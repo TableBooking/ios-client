@@ -16,6 +16,8 @@ class StartNavigationViewController: UINavigationController {
         //UI
         self.navigationBar.barTintColor = UIColor.TBGreenColor()
         self.navigationBar.barStyle = .black;
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Map", style: .plain, target: self, action:nil)
+
     }
 
     override func didReceiveMemoryWarning() {
