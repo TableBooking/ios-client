@@ -22,13 +22,16 @@ class FilterViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    
+        view.backgroundColor = Color.TBBackground
+        navigationController?.navigationBar.tintColor = Color.TBBackground
+        priceSlider.backgroundColor = Color.TBBackground
+        ratingSlider.backgroundColor = Color.TBBackground
+        sortSegmentControl.backgroundColor = Color.TBBackground
+        sortSegmentControl.tintColor = Color.TBGreen
+        
         configurePriceSliderLabel()
         configureRatingSliderLabel()
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -40,6 +43,20 @@ class FilterViewController: UIViewController {
         ratingUpperLabel.isHidden = false;
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        let rightBarButtonItem = UIBarButtonItem(title: "Done",
+                                                 style: .plain,
+                                                 target: self,
+                                                 action:#selector(done(sender:)))
+        rightBarButtonItem.tintColor = Color.TBBackground
+        navigationItem.rightBarButtonItem = rightBarButtonItem
+    }
+    
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
     
     // MARK: - Price DoubleSlider
     
@@ -127,7 +144,11 @@ class FilterViewController: UIViewController {
         }
     }
     
+    // MARK: - Helpers
     
+    func done(sender: UIBarButtonItem){
+        navigationController?.popViewController(animated: true)
+    }
     
     /*
      // MARK: - Navigation

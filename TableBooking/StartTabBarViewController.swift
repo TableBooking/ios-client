@@ -13,8 +13,7 @@ class StartTabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        UITabBar.appearance().tintColor = UIColor.TBGreenColor()
-        
+        UITabBar.appearance().tintColor = Color.TBGreen
      
     }
 

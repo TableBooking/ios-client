@@ -14,7 +14,7 @@ class StartNavigationViewController: UINavigationController {
         super.viewDidLoad()
         
         //UI
-        self.navigationBar.barTintColor = UIColor.TBGreenColor()
+        self.navigationBar.barTintColor = Color.TBGreen
         self.navigationBar.barStyle = .black;
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Map", style: .plain, target: self, action:nil)
 

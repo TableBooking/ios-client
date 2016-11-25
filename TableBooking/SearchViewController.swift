@@ -7,31 +7,40 @@
 //
 
 import UIKit
+import GooglePlaces
 
 class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     let rowHeight:CGFloat = 103;
     
-    @IBOutlet weak var locationSearchBar: UISearchBar!
     @IBOutlet weak var restaurantSearchBar: UISearchBar!
     @IBOutlet weak var timeButton: UIButton!
     @IBOutlet weak var peopleQtyButton: UIButton!
     @IBOutlet weak var restaurantsTabelView: UITableView!
     
+    //Google Places
+    var resultsViewController: GMSAutocompleteResultsViewController?
+    var searchController: UISearchController?
+    var resultView: UITextView?
+    
+    
     
     // MARK: - View Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+        
+        GMSPlacesClient.provideAPIKey("AIzaSyAScfB7bzP8bmviuaEZFZDB4aA5ZwWniiI")
+        
         //UI
-        view.backgroundColor = UIColor.TBBackgroundColor()
+        view.backgroundColor = Color.TBBackground
         
-        timeButton.backgroundColor = UIColor.TBGreenColor()
-        timeButton.setTitleColor(UIColor.TBBackgroundColor(), for: .normal)
-        peopleQtyButton.backgroundColor = UIColor.TBGreenColor()
-        peopleQtyButton.setTitleColor(UIColor.TBBackgroundColor(), for: .normal)
-        restaurantsTabelView.backgroundColor = UIColor.TBBackgroundColor()
+        timeButton.backgroundColor = Color.TBGreen
+        timeButton.setTitleColor(Color.TBBackground, for: .normal)
+        peopleQtyButton.backgroundColor = Color.TBGreen
+        peopleQtyButton.setTitleColor(Color.TBBackground, for: .normal)
+        restaurantsTabelView.backgroundColor = Color.TBBackground
         
+        setUpGooglePlaces()
         
     }
     
@@ -45,8 +54,9 @@ class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDa
                                                  style: .plain,
                                                  target: self,
                                                  action:#selector(filter(sender:)))
-        leftBarButtonItem.tintColor = UIColor.TBBackgroundColor()
-        rightBarButtonItem.tintColor = UIColor.TBBackgroundColor()
+        
+        leftBarButtonItem.tintColor = Color.TBBackground
+        rightBarButtonItem.tintColor = Color.TBBackground
         tabBarController?.navigationItem.leftBarButtonItem = leftBarButtonItem
         tabBarController?.navigationItem.rightBarButtonItem = rightBarButtonItem
     }
@@ -105,6 +115,26 @@ class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDa
         restaurantsTabelView.frame = frame
     }
     
+    func setUpGooglePlaces() {
+        
+        resultsViewController = GMSAutocompleteResultsViewController()
+        resultsViewController?.delegate = self
+        
+        searchController = UISearchController(searchResultsController: resultsViewController)
+        searchController?.searchResultsUpdater = resultsViewController
+        searchController?.searchBar.searchBarStyle = .minimal
+        let subView = UIView(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: restaurantSearchBar.frame.height))
+        
+        subView.addSubview((searchController?.searchBar)!)
+        self.view.addSubview(subView)
+        searchController?.searchBar.sizeToFit()
+        searchController?.hidesNavigationBarDuringPresentation = false
+        
+        // When UISearchController presents the results view, present it in
+        // this view controller, not one further up the chain.
+        self.definesPresentationContext = true
+    }
+    
     /*
      // MARK: - Navigation
      
@@ -116,3 +146,51 @@ class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDa
      */
     
 }
+
+extension SearchViewController: GMSAutocompleteResultsViewControllerDelegate {
+    
+    func resultsController(_ resultsController: GMSAutocompleteResultsViewController, didAutocompleteWith place: GMSPlace) {
+        searchController?.isActive = false
+        // Do something with the selected place.
+        print("Place name: ", place.name)
+        print("Place address: ", place.formattedAddress!)
+        print("Place attributions: ", place.attributions!)
+    }
+    
+    func resultsController(_ resultsController: GMSAutocompleteResultsViewController, didFailAutocompleteWithError error: Swift.Error) {
+        print("Error: ", error.localizedDescription)
+    }
+    
+    func didRequestAutocompletePredictions(forResultsController resultsController: GMSAutocompleteResultsViewController) {
+        UIApplication.shared.isNetworkActivityIndicatorVisible = true
+    }
+    
+    func didUpdateAutocompletePredictions(forResultsController resultsController: GMSAutocompleteResultsViewController) {
+        UIApplication.shared.isNetworkActivityIndicatorVisible = true
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
