@@ -22,6 +22,8 @@
 		343C0E321DE8EF3600B83950 /* DatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 343C0E311DE8EF3600B83950 /* DatePickerView.xib */; };
 		343C0E341DE8EFEF00B83950 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343C0E331DE8EFEF00B83950 /* DatePickerView.swift */; };
 		3495A4A71DE105D1005503E3 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3495A4A61DE105D1005503E3 /* RestaurantTableViewCell.swift */; };
+		349A35111DE9ECE900D7578A /* RestaurantPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349A35101DE9ECE900D7578A /* RestaurantPageViewController.swift */; };
+		349A35131DE9F61000D7578A /* BookPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349A35121DE9F61000D7578A /* BookPageViewController.swift */; };
 		34A1719A1DE5FC3A0054E1ED /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A171991DE5FC3A0054E1ED /* Config.swift */; };
 		34A1719C1DE60F330054E1ED /* DataAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A1719B1DE60F330054E1ED /* DataAPI.swift */; };
 		34A1719E1DE6F0C00054E1ED /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A1719D1DE6F0C00054E1ED /* User.swift */; };
@@ -83,6 +85,8 @@
 		343C0E311DE8EF3600B83950 /* DatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerView.xib; sourceTree = "<group>"; };
 		343C0E331DE8EFEF00B83950 /* DatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 		3495A4A61DE105D1005503E3 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		349A35101DE9ECE900D7578A /* RestaurantPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantPageViewController.swift; sourceTree = "<group>"; };
+		349A35121DE9F61000D7578A /* BookPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookPageViewController.swift; sourceTree = "<group>"; };
 		34A171991DE5FC3A0054E1ED /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		34A1719B1DE60F330054E1ED /* DataAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAPI.swift; sourceTree = "<group>"; };
 		34A1719D1DE6F0C00054E1ED /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -270,8 +274,8 @@
 		34A171AF1DE86F8D0054E1ED /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				3415964D1DBCD92D00A5D68C /* LaunchScreen.storyboard */,
 				341596451DBCD92D00A5D68C /* Main.storyboard */,
+				3415964D1DBCD92D00A5D68C /* LaunchScreen.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -288,6 +292,7 @@
 		34F495851DDF9F5700DF791E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				34FA1EAC1DE9EC700039AB65 /* Restaurant */,
 				34A171A61DE73B230054E1ED /* Root */,
 				34A171A91DE73B3A0054E1ED /* History */,
 				34A171A81DE73B350054E1ED /* User */,
@@ -353,6 +358,15 @@
 				343C0E331DE8EFEF00B83950 /* DatePickerView.swift */,
 			);
 			name = Search;
+			sourceTree = "<group>";
+		};
+		34FA1EAC1DE9EC700039AB65 /* Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				349A35101DE9ECE900D7578A /* RestaurantPageViewController.swift */,
+				349A35121DE9F61000D7578A /* BookPageViewController.swift */,
+			);
+			name = Restaurant;
 			sourceTree = "<group>";
 		};
 		B4C195203F24741F75D9EAAF /* Frameworks */ = {
@@ -656,6 +670,7 @@
 				34F495931DDFD04C00DF791E /* SearchViewController.swift in Sources */,
 				34F495971DDFD10B00DF791E /* UserViewController.swift in Sources */,
 				341596731DBD70D000A5D68C /* Colors+Helpers.swift in Sources */,
+				349A35131DE9F61000D7578A /* BookPageViewController.swift in Sources */,
 				34172AC61DE1BA340005EAAA /* NMRangeSlider.m in Sources */,
 				34A171A01DE6F18D0054E1ED /* Parser.swift in Sources */,
 				343C0E341DE8EFEF00B83950 /* DatePickerView.swift in Sources */,
@@ -672,6 +687,7 @@
 				34172AD51DE1F85E0005EAAA /* Numebers+Format.swift in Sources */,
 				3495A4A71DE105D1005503E3 /* RestaurantTableViewCell.swift in Sources */,
 				34F4958F1DDFC66000DF791E /* StartNavigationViewController.swift in Sources */,
+				349A35111DE9ECE900D7578A /* RestaurantPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

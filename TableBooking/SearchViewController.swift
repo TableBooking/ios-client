@@ -263,6 +263,10 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
         return cell;
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+         performSegue(withIdentifier: "restaurantSearchSegue", sender: self)
+    }
+    
 }
 
 // MARK: - GMSAutocompleteResultsViewControllerDelegate
