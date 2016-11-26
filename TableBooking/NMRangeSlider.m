@@ -235,7 +235,7 @@ NSUInteger DeviceSystemMajorVersion() {
 
 - (UIImage *)imageFromBundle:(NSString*)imageName {
     UIImage *image = [UIImage imageNamed:imageName];
-    NSLog(@"Hello %@", imageName);
+//    NSLog(@"Hello %@", imageName);
     return image;
 }
 

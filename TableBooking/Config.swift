@@ -11,6 +11,7 @@ import Foundation
 struct Config {
     static let baseURL = "Толя, где сервер?😡😡😡"
     static let googleApiKey = "AIzaSyAScfB7bzP8bmviuaEZFZDB4aA5ZwWniiI"
+    static let defaultPeopleQtyForTable: UInt = 2
 }
 
 struct Color {

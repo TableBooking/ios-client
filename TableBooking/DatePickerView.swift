@@ -34,9 +34,9 @@ class DatePickerView: UIView {
     override func awakeFromNib() {
         super.awakeFromNib()
         isHidden = true
-        
         backgroundColor = UIColor.black.withAlphaComponent(0.6)
         picker.backgroundColor = UIColor.black.withAlphaComponent(0)
+        picker.addTarget(self, action: #selector(dateChanged), for: .valueChanged)
     }
     
     
@@ -79,5 +79,9 @@ class DatePickerView: UIView {
             frame.origin.y = (superview?.frame.height)!
             self.frame = frame
         }
+    }
+    
+    func dateChanged(){
+     delegate?.valueChanged(dateView: self, date: picker.date)
     }
 }

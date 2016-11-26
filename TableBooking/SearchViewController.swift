@@ -15,7 +15,8 @@ class SearchViewController: UIViewController {
     
     let rowHeight:CGFloat = 103
     let maxPeople = 10
-    let formatForPeopleQtyButton = "Table for %i people"
+    let stringFormatForPeopleQtyButton = "Table for %i people"
+    let dateFormatTimeButton = "MMM dd, yyyy hh:mm a"
     
     // MARK: - IBOutlets
     
@@ -28,12 +29,16 @@ class SearchViewController: UIViewController {
     
     var peopleQtyPicker: PeopleQtyPickerView!
     var timePicker: DatePickerView!
-
+    
+    //Google Places
     var resultsViewController: GMSAutocompleteResultsViewController?
     var searchController: UISearchController?
     var resultView: UITextView?
     
+    // MARK: - Local Helpers
     
+    var chosenTime: Date?
+    var chosenQty: UInt?
     
     // MARK: - View Lifecycle
     
@@ -42,22 +47,25 @@ class SearchViewController: UIViewController {
         
         GMSPlacesClient.provideAPIKey(Config.googleApiKey)
         
-        //UI
+        //Colors
         view.backgroundColor = Color.TBBackground
         timeButton.backgroundColor = Color.TBGreen
         timeButton.setTitleColor(Color.TBBackground, for: .normal)
+        restaurantsTabelView.backgroundColor = Color.TBBackground
         peopleQtyButton.backgroundColor = Color.TBGreen
         peopleQtyButton.setTitleColor(Color.TBBackground, for: .normal)
-        restaurantsTabelView.backgroundColor = Color.TBBackground
+        
+        setDefaultTitleForDateButton()
+        setDefaultTitleForTimeButton()
         
         setUpDatePicker()
         setUpQtyPicker()
+        
         setUpGooglePlaces()
         
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        //Tab bar
         let leftBarButtonItem = UIBarButtonItem(title: "Map",
                                                 style: .plain,
                                                 target: self,
@@ -104,14 +112,16 @@ class SearchViewController: UIViewController {
     
     // MARK: - Additional Helpers
     
-
-    func reloadTableView(){
-        restaurantsTabelView.reloadData();
-        
-        //fitting talble view to content
-        var frame = restaurantsTabelView.frame
-        frame.size.height = restaurantsTabelView.contentSize.height
-        restaurantsTabelView.frame = frame
+    func setDefaultTitleForTimeButton() {
+        chosenQty = Config.defaultPeopleQtyForTable
+        peopleQtyButton.setTitle(String.init(format: stringFormatForPeopleQtyButton, chosenQty!), for: .normal)
+    }
+    
+    func setDefaultTitleForDateButton() {
+        chosenTime = Date()
+        let formatter = DateFormatter()
+        formatter.dateFormat = dateFormatTimeButton
+        timeButton.setTitle(formatter.string(from: chosenTime!), for: .normal)
     }
     
     func setUpGooglePlaces() {
@@ -137,10 +147,11 @@ class SearchViewController: UIViewController {
         self.definesPresentationContext = true
     }
     
-    func setUpDatePicker(){
+    func setUpDatePicker() {
+        
         timePicker = DatePickerView.instanceFromNib()
         let y = view.frame.height - (timePicker.frame.size.height +
-            (tabBarController?.tabBar.frame.height)! + 50)
+            (tabBarController?.tabBar.frame.height)! + 50/*Magic number*/)
         timePicker.frameForPeresenting = CGRect(x: 0,
                                                 y: y,
                                                 width: view.frame.width,
@@ -150,10 +161,10 @@ class SearchViewController: UIViewController {
         view.addSubview(timePicker)
     }
     
-    func setUpQtyPicker(){
+    func setUpQtyPicker() {
         peopleQtyPicker = PeopleQtyPickerView.instanceFromNib()
         let y = view.frame.height - (peopleQtyPicker.frame.size.height +
-            (tabBarController?.tabBar.frame.height)! + 50)
+            (tabBarController?.tabBar.frame.height)! + 50/*Magic number*/)
         peopleQtyPicker.frameForPeresenting = CGRect(x: 0,
                                                      y: y,
                                                      width: view.frame.width,
@@ -163,6 +174,14 @@ class SearchViewController: UIViewController {
         view.addSubview(peopleQtyPicker)
     }
     
+    func reloadTableView() {
+        restaurantsTabelView.reloadData();
+        
+        //fitting talble view to content
+        var frame = restaurantsTabelView.frame
+        frame.size.height = restaurantsTabelView.contentSize.height
+        restaurantsTabelView.frame = frame
+    }
     
     
     /*
@@ -181,30 +200,44 @@ class SearchViewController: UIViewController {
 
 extension SearchViewController: DatePickerViewDelegate {
     
-    
-    
-    func cancelClicked( dateView: DatePickerView) {
-        
+    func cancelClicked(dateView: DatePickerView) {
+        setTimeForButton(time: chosenTime!)
     }
-    func doneClicked(dateView: DatePickerView, date: Date) {}
     
-    func valueChanged(dateView: DatePickerView, date: Date) {}
+    func doneClicked(dateView: DatePickerView, date: Date) {
+        chosenTime = date
+        setTimeForButton(time: chosenTime!)
+    }
     
+    func valueChanged(dateView: DatePickerView, date: Date) {
+        setTimeForButton(time: date)
+    }
     
+    func setTimeForButton(time: Date) {
+        let formatter = DateFormatter()
+        formatter.dateFormat = dateFormatTimeButton
+        timeButton.setTitle(formatter.string(from: time), for: .normal)
+    }
 }
 
 // MARK: - DatePickerViewDelegate
 
 extension SearchViewController: PeopleQtyPickerViewDelegate {
     
-    func doneClicked(pickerView: PeopleQtyPickerView, qty: UInt) {}
+    func doneClicked(pickerView: PeopleQtyPickerView, qty: UInt) {
+        chosenQty = qty
+        let title = String.init(format: stringFormatForPeopleQtyButton, qty)
+        peopleQtyButton.setTitle(title, for: .normal)
+    }
     
     func cancelClicked(pickerView: PeopleQtyPickerView) {
-        
+        let title = String.init(format: stringFormatForPeopleQtyButton, chosenQty!)
+        peopleQtyButton.setTitle(title, for: .normal)
     }
     
     func valueChanged(pickerView: PeopleQtyPickerView, qty: UInt) {
-        peopleQtyButton.titleLabel?.text = String.init(format: formatForPeopleQtyButton, qty)
+        let title = String.init(format: stringFormatForPeopleQtyButton, qty)
+        peopleQtyButton.setTitle(title, for: .normal)
     }
     
 }
