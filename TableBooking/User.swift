@@ -7,17 +7,16 @@
 //
 
 import UIKit
+import RealmSwift
 
-final class User: NSObject  {
-    var firstName: String?
+final class User: Object  {
+    dynamic var firstName: String?
     var lastName: String?
     var email: String?
 }
 
 extension User: Mappable{
-    
     static func mapToModel(o: AnyObject) -> Result<User, Error> {
         return .success(User())
     }
-    
 }

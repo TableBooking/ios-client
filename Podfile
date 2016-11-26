@@ -7,6 +7,7 @@ target 'TableBooking' do
   pod 'GooglePlaces', '~> 2.0'
   pod 'GoogleMaps', '~> 2.0'
   pod 'Alamofire', '~> 4.0'
+  pod 'RealmSwift', '~> 2.0'
   
   target 'TableBookingTests' do
     inherit! :search_paths
