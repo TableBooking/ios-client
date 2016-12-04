@@ -13,7 +13,7 @@ class SearchViewController: UIViewController {
     
     // MARK: - Constants
     
-    let rowHeight:CGFloat = 103
+    let rowHeight:CGFloat = 130
     let maxPeople = 10
     let stringFormatForPeopleQtyButton = "Table for %i people"
     let dateFormatTimeButton = "MMM dd, yyyy hh:mm a"
@@ -45,7 +45,6 @@ class SearchViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        GMSPlacesClient.provideAPIKey(Config.googleApiKey)
         
         //Colors
         view.backgroundColor = Color.TBBackground
@@ -54,6 +53,8 @@ class SearchViewController: UIViewController {
         restaurantsTabelView.backgroundColor = Color.TBBackground
         peopleQtyButton.backgroundColor = Color.TBGreen
         peopleQtyButton.setTitleColor(Color.TBBackground, for: .normal)
+        navigationController?.navigationBar.barTintColor = Color.TBGreen
+        navigationController?.navigationBar.barStyle = .black;
         
         setDefaultTitleForDateButton()
         setDefaultTitleForTimeButton()
@@ -78,8 +79,8 @@ class SearchViewController: UIViewController {
         
         leftBarButtonItem.tintColor = Color.TBBackground
         rightBarButtonItem.tintColor = Color.TBBackground
-        tabBarController?.navigationItem.leftBarButtonItem = leftBarButtonItem
-        tabBarController?.navigationItem.rightBarButtonItem = rightBarButtonItem
+        navigationItem.leftBarButtonItem = leftBarButtonItem
+        navigationItem.rightBarButtonItem = rightBarButtonItem
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -100,12 +101,14 @@ class SearchViewController: UIViewController {
     }
     
     func openMaps(sender: UIBarButtonItem){
-        print("Hello");
+        DataAPI.sharedInstance.getAllRestaurants()
+        print("Hello")
         reloadTableView()
     }
     
     func filter(sender: UIBarButtonItem){
         self.performSegue(withIdentifier: "filterSearchSegue", sender: self);
+        DataAPI.sharedInstance.login(userName: "", password: "")
     }
     
     
@@ -125,7 +128,6 @@ class SearchViewController: UIViewController {
     }
     
     func setUpGooglePlaces() {
-        
         resultsViewController = GMSAutocompleteResultsViewController()
         resultsViewController?.delegate = self
         
@@ -133,12 +135,12 @@ class SearchViewController: UIViewController {
         searchController?.searchResultsUpdater = resultsViewController
         searchController?.searchBar.searchBarStyle = .minimal
         let subView = UIView(frame: CGRect(x: 0,
-                                           y: 0,
+                                           y: restaurantSearchBar.frame.origin.y - restaurantSearchBar.frame.height,
                                            width: view.frame.width,
                                            height: restaurantSearchBar.frame.height))
         
         subView.addSubview((searchController?.searchBar)!)
-        self.view.addSubview(subView)
+        view.addSubview(subView)
         searchController?.searchBar.sizeToFit()
         searchController?.hidesNavigationBarDuringPresentation = false
         
@@ -148,10 +150,9 @@ class SearchViewController: UIViewController {
     }
     
     func setUpDatePicker() {
-        
         timePicker = DatePickerView.instanceFromNib()
         let y = view.frame.height - (timePicker.frame.size.height +
-            (tabBarController?.tabBar.frame.height)! + 50/*Magic number*/)
+            (tabBarController?.tabBar.frame.height)!)
         timePicker.frameForPeresenting = CGRect(x: 0,
                                                 y: y,
                                                 width: view.frame.width,
@@ -164,7 +165,7 @@ class SearchViewController: UIViewController {
     func setUpQtyPicker() {
         peopleQtyPicker = PeopleQtyPickerView.instanceFromNib()
         let y = view.frame.height - (peopleQtyPicker.frame.size.height +
-            (tabBarController?.tabBar.frame.height)! + 50/*Magic number*/)
+            (tabBarController?.tabBar.frame.height)!)
         peopleQtyPicker.frameForPeresenting = CGRect(x: 0,
                                                      y: y,
                                                      width: view.frame.width,
@@ -259,7 +260,7 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
         let cellIdentifier = "restaurantTableViewCell"
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! RestaurantTableViewCell;
         cell.nameLabel.text = "Rest1"
-        
+        cell.restImage.image = UIImage(named: "restaurant-test")
         return cell;
     }
     
@@ -272,7 +273,7 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
 // MARK: - GMSAutocompleteResultsViewControllerDelegate
 
 extension SearchViewController: GMSAutocompleteResultsViewControllerDelegate {
-    
+
     func resultsController(_ resultsController: GMSAutocompleteResultsViewController, didAutocompleteWith place: GMSPlace) {
         searchController?.isActive = false
         // Do something with the selected place.

@@ -19,6 +19,8 @@ class RestaurantTableViewCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
         backgroundColor = Color.TBBackground
+        restImage.layer.cornerRadius = restImage.frame.size.width / 2;
+        restImage.clipsToBounds = true;
         
     }
 

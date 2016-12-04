@@ -21,6 +21,8 @@
 		34172AD51DE1F85E0005EAAA /* Numebers+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34172AD41DE1F85E0005EAAA /* Numebers+Format.swift */; };
 		343C0E321DE8EF3600B83950 /* DatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 343C0E311DE8EF3600B83950 /* DatePickerView.xib */; };
 		343C0E341DE8EFEF00B83950 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343C0E331DE8EFEF00B83950 /* DatePickerView.swift */; };
+		34946FD11DF3732A0038FEF0 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34946FD01DF3732A0038FEF0 /* Restaurant.swift */; };
+		34946FD31DF38A5D0038FEF0 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34946FD21DF38A5D0038FEF0 /* Location.swift */; };
 		3495A4A71DE105D1005503E3 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3495A4A61DE105D1005503E3 /* RestaurantTableViewCell.swift */; };
 		349A35111DE9ECE900D7578A /* RestaurantPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349A35101DE9ECE900D7578A /* RestaurantPageViewController.swift */; };
 		349A35131DE9F61000D7578A /* BookPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349A35121DE9F61000D7578A /* BookPageViewController.swift */; };
@@ -32,10 +34,10 @@
 		34A171A51DE6F6360054E1ED /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A171A41DE6F6360054E1ED /* Result.swift */; };
 		34A171AB1DE86EF80054E1ED /* PeopleQtyPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A171AA1DE86EF80054E1ED /* PeopleQtyPickerView.swift */; };
 		34A171AE1DE86F650054E1ED /* PeopleQtyPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34A171AD1DE86F650054E1ED /* PeopleQtyPickerView.xib */; };
-		34F4958F1DDFC66000DF791E /* StartNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F4958E1DDFC66000DF791E /* StartNavigationViewController.swift */; };
+		34B63A8D1DEF428C00DC7B02 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B63A8C1DEF428C00DC7B02 /* HistoryViewController.swift */; };
+		34B63A8F1DEF67CE00DC7B02 /* HistoryItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B63A8E1DEF67CE00DC7B02 /* HistoryItemTableViewCell.swift */; };
 		34F495911DDFCB0600DF791E /* StartTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F495901DDFCB0600DF791E /* StartTabBarViewController.swift */; };
 		34F495931DDFD04C00DF791E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F495921DDFD04C00DF791E /* SearchViewController.swift */; };
-		34F495951DDFD0AC00DF791E /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F495941DDFD0AC00DF791E /* HistoryViewController.swift */; };
 		34F495971DDFD10B00DF791E /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F495961DDFD10B00DF791E /* UserViewController.swift */; };
 		71211B7D2B905C8E0BF3B0AD /* Pods_TableBookingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F42D33B53094F22B0525DB /* Pods_TableBookingTests.framework */; };
 		F72F3BE7B6ECB07B5828AF58 /* Pods_TableBooking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D872F65A240F385A5BA517A /* Pods_TableBooking.framework */; };
@@ -84,6 +86,8 @@
 		34172AD41DE1F85E0005EAAA /* Numebers+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Numebers+Format.swift"; sourceTree = "<group>"; };
 		343C0E311DE8EF3600B83950 /* DatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerView.xib; sourceTree = "<group>"; };
 		343C0E331DE8EFEF00B83950 /* DatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		34946FD01DF3732A0038FEF0 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		34946FD21DF38A5D0038FEF0 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		3495A4A61DE105D1005503E3 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
 		349A35101DE9ECE900D7578A /* RestaurantPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantPageViewController.swift; sourceTree = "<group>"; };
 		349A35121DE9F61000D7578A /* BookPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookPageViewController.swift; sourceTree = "<group>"; };
@@ -95,10 +99,10 @@
 		34A171A41DE6F6360054E1ED /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		34A171AA1DE86EF80054E1ED /* PeopleQtyPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleQtyPickerView.swift; sourceTree = "<group>"; };
 		34A171AD1DE86F650054E1ED /* PeopleQtyPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PeopleQtyPickerView.xib; sourceTree = "<group>"; };
-		34F4958E1DDFC66000DF791E /* StartNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartNavigationViewController.swift; sourceTree = "<group>"; };
+		34B63A8C1DEF428C00DC7B02 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		34B63A8E1DEF67CE00DC7B02 /* HistoryItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryItemTableViewCell.swift; sourceTree = "<group>"; };
 		34F495901DDFCB0600DF791E /* StartTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartTabBarViewController.swift; sourceTree = "<group>"; };
 		34F495921DDFD04C00DF791E /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		34F495941DDFD0AC00DF791E /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		34F495961DDFD10B00DF791E /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		66B5D4E9BFDB7B1EAB2A16A6 /* Pods-TableBookingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableBookingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableBookingTests/Pods-TableBookingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		75F42D33B53094F22B0525DB /* Pods_TableBookingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableBookingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -240,7 +244,6 @@
 		34A171A61DE73B230054E1ED /* Root */ = {
 			isa = PBXGroup;
 			children = (
-				34F4958E1DDFC66000DF791E /* StartNavigationViewController.swift */,
 				34F495901DDFCB0600DF791E /* StartTabBarViewController.swift */,
 			);
 			name = Root;
@@ -266,7 +269,7 @@
 		34A171A91DE73B3A0054E1ED /* History */ = {
 			isa = PBXGroup;
 			children = (
-				34F495941DDFD0AC00DF791E /* HistoryViewController.swift */,
+				34B63A8C1DEF428C00DC7B02 /* HistoryViewController.swift */,
 			);
 			name = History;
 			sourceTree = "<group>";
@@ -292,11 +295,11 @@
 		34F495851DDF9F5700DF791E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				34FA1EAC1DE9EC700039AB65 /* Restaurant */,
 				34A171A61DE73B230054E1ED /* Root */,
 				34A171A91DE73B3A0054E1ED /* History */,
 				34A171A81DE73B350054E1ED /* User */,
 				34A171A71DE73B2A0054E1ED /* Search */,
+				34FA1EAC1DE9EC700039AB65 /* Restaurant */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				34F4958A1DDFA43D00DF791E /* Common */,
 				34F4958D1DDFA6D200DF791E /* Search */,
 				34172AC71DE1BF620005EAAA /* External views */,
+				34B63A8E1DEF67CE00DC7B02 /* HistoryItemTableViewCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -315,6 +319,8 @@
 			isa = PBXGroup;
 			children = (
 				34A1719D1DE6F0C00054E1ED /* User.swift */,
+				34946FD01DF3732A0038FEF0 /* Restaurant.swift */,
+				34946FD21DF38A5D0038FEF0 /* Location.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -675,19 +681,21 @@
 				34A171A01DE6F18D0054E1ED /* Parser.swift in Sources */,
 				343C0E341DE8EFEF00B83950 /* DatePickerView.swift in Sources */,
 				34F495911DDFCB0600DF791E /* StartTabBarViewController.swift in Sources */,
+				34946FD11DF3732A0038FEF0 /* Restaurant.swift in Sources */,
+				34946FD31DF38A5D0038FEF0 /* Location.swift in Sources */,
 				34172ACA1DE1C0730005EAAA /* FilterViewController.swift in Sources */,
 				34A1719C1DE60F330054E1ED /* DataAPI.swift in Sources */,
 				34A1719A1DE5FC3A0054E1ED /* Config.swift in Sources */,
+				34B63A8D1DEF428C00DC7B02 /* HistoryViewController.swift in Sources */,
 				34A171AB1DE86EF80054E1ED /* PeopleQtyPickerView.swift in Sources */,
 				34A171A31DE6F6290054E1ED /* Error.swift in Sources */,
 				34A1719E1DE6F0C00054E1ED /* User.swift in Sources */,
 				3415964A1DBCD92D00A5D68C /* TableBooking.xcdatamodeld in Sources */,
 				341596421DBCD92D00A5D68C /* AppDelegate.swift in Sources */,
-				34F495951DDFD0AC00DF791E /* HistoryViewController.swift in Sources */,
 				34172AD51DE1F85E0005EAAA /* Numebers+Format.swift in Sources */,
 				3495A4A71DE105D1005503E3 /* RestaurantTableViewCell.swift in Sources */,
-				34F4958F1DDFC66000DF791E /* StartNavigationViewController.swift in Sources */,
 				349A35111DE9ECE900D7578A /* RestaurantPageViewController.swift in Sources */,
+				34B63A8F1DEF67CE00DC7B02 /* HistoryItemTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
