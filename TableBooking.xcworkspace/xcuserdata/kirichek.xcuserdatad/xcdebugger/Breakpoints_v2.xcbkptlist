@@ -1387,38 +1387,6 @@
             endingLineNumber = "157"
             landmarkName = "filter(sender:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TableBooking.SearchViewController.filter (sender : __ObjC.UIBarButtonItem) -&gt; ()"
-                  moduleName = "TableBooking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kirichek/Documents/Projects/TableBooking/TableBookingDev/ios-client/TableBooking/SearchViewController.swift"
-                  timestampString = "502640232.222001"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "158"
-                  endingLineNumber = "158"
-                  offsetFromSymbolStart = "188">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TableBooking.SearchViewController.(filter (sender : __ObjC.UIBarButtonItem) -&gt; ()).(closure #1)"
-                  moduleName = "TableBooking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kirichek/Documents/Projects/TableBooking/TableBookingDev/ios-client/TableBooking/SearchViewController.swift"
-                  timestampString = "502640232.227884"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "158"
-                  endingLineNumber = "158"
-                  offsetFromSymbolStart = "20">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

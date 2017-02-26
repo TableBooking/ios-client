@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0820"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "54C29EE26FA85C69F966895C98C64FDE"
+               BlueprintIdentifier = "77B44DE7F86B545CB913EEB29A5A927E"
                BuildableName = "Pods_TableBooking.framework"
                BlueprintName = "Pods-TableBooking"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "54C29EE26FA85C69F966895C98C64FDE"
+            BlueprintIdentifier = "77B44DE7F86B545CB913EEB29A5A927E"
             BuildableName = "Pods_TableBooking.framework"
             BlueprintName = "Pods-TableBooking"
             ReferencedContainer = "container:Pods.xcodeproj">

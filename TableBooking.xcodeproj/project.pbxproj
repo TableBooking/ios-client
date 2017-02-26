@@ -18,6 +18,7 @@
 		34172AC61DE1BA340005EAAA /* NMRangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 34172AC51DE1BA340005EAAA /* NMRangeSlider.m */; };
 		34172ACA1DE1C0730005EAAA /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34172AC91DE1C0730005EAAA /* FilterViewController.swift */; };
 		34172AD51DE1F85E0005EAAA /* Numebers+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34172AD41DE1F85E0005EAAA /* Numebers+Format.swift */; };
+		343979CC1E62FFE300B4697C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 343979CB1E62FFE300B4697C /* Assets.xcassets */; };
 		343C0E321DE8EF3600B83950 /* DatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 343C0E311DE8EF3600B83950 /* DatePickerView.xib */; };
 		343C0E341DE8EFEF00B83950 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343C0E331DE8EFEF00B83950 /* DatePickerView.swift */; };
 		3466C62A1E5B3A0600DA021A /* CoreDataStackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3466C6291E5B3A0600DA021A /* CoreDataStackManager.swift */; };
@@ -83,6 +84,7 @@
 		34172AC51DE1BA340005EAAA /* NMRangeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMRangeSlider.m; sourceTree = "<group>"; };
 		34172AC91DE1C0730005EAAA /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 		34172AD41DE1F85E0005EAAA /* Numebers+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Numebers+Format.swift"; sourceTree = "<group>"; };
+		343979CB1E62FFE300B4697C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		343C0E311DE8EF3600B83950 /* DatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerView.xib; sourceTree = "<group>"; };
 		343C0E331DE8EFEF00B83950 /* DatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 		3466C6291E5B3A0600DA021A /* CoreDataStackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStackManager.swift; sourceTree = "<group>"; };
@@ -244,6 +246,7 @@
 		34A171A11DE6F33E0054E1ED /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				343979CB1E62FFE300B4697C /* Assets.xcassets */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -517,6 +520,7 @@
 				3415964F1DBCD92D00A5D68C /* LaunchScreen.storyboard in Resources */,
 				343C0E321DE8EF3600B83950 /* DatePickerView.xib in Resources */,
 				341596471DBCD92D00A5D68C /* Main.storyboard in Resources */,
+				343979CC1E62FFE300B4697C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
