@@ -9,57 +9,83 @@
 import Foundation
 import Alamofire
 
+typealias CompletionClosure = (Result<Any, Error>)->(Void)
+
 
 class DataAPI: NSObject {
     
     static let sharedInstance = DataAPI()
     
-    let headers = [
-        "Content-Type": "application/x-www-form-urlencoded",
-        "User-Agent":"ios-mobile-client"
-    ]
-    
-    public func getShit(){
+    public func login(userName: String, password: String, completion: @escaping CompletionClosure){
         
-        Alamofire.request(Config.baseURL + "/Home/TestIos", method: .get).responseString { response in
-            debugPrint(response)
-            
-            if let json = response.result.value {
-                print("JSON: \(json)")
-            }
-        }
-    }
-    
-    public func login(userName: String, password: String){
+        let urlEnd = "/Account/Login"
         
         let parameters: Parameters = [
-            "Email": "nikita@example.com",
-            "Password": "Qqq111"
-//            "RememberMe": true
+            "Email": userName,
+            "Password": password
         ]
-       
         
-        Alamofire.request(Config.baseURL + "/Account/Login", method: .post, parameters: parameters, encoding: URLEncoding.httpBody, headers: headers).responseJSON(completionHandler: {response in
-
-            if let cookie = response.response?.allHeaderFields["Set-Cookie"] as? String {
-                cookie
+        Alamofire.request(Config.baseURL + urlEnd, method: .post, parameters: parameters, encoding: URLEncoding.httpBody, headers: Config.headers).responseJSON(completionHandler: {response in
+        })
+    }
+    
+    public func getAllRestaurants(completion: @escaping CompletionClosure){
+        
+        let urlEnd = "/Restaurants"
+        
+        Alamofire.request(Config.baseURL + urlEnd, method: .get, headers: Config.headers).responseJSON(completionHandler: {response in
+            Parser.parse(json: response.result.value ?? "", completion: {(response:(Result<[Restaurant], Error>)) in
+                switch response {
+                case .success(let restaurants): completion(.success(restaurants))
+                case .failure(_): break
+                    
+                }
+            })
+        })
+    }
+    
+    public func getHistory(restaurantId: Int, completion: @escaping CompletionClosure){
+        
+        let urlEnd = "/Booking/History/"
+        
+        Alamofire.request(Config.baseURL + urlEnd + String(restaurantId), method: .get, headers: Config.headers).responseString(completionHandler: {response in
+            print("")
+        })
+    }
+    
+    public func bookTable(restaurantId: Int,time: Date, qty: Int, completion: @escaping CompletionClosure) {
+        
+        let urlEnd = "/Booking/Reserve/"
+        
+        let parameters:Parameters = ["RestaurantId":restaurantId,
+                                     "Date":time.description,
+                                     "Start":time.description,
+                                     "End":time.description,
+                                     "PeopleCount":2]
+        
+        Alamofire.request(Config.baseURL + urlEnd, method: .post,parameters: parameters, headers: Config.headers).responseString(completionHandler: {response in
+            if response.result.isSuccess {
+                completion(.success(""))
             }
-            
-        })
-    }
-    
-    public func getAllRestaurants(){
- 
-        Alamofire.request(Config.baseURL + "/Restaurants", method: .get, headers: headers).responseString(completionHandler: {response in
-            print(response.result)
         })
         
     }
     
     
     
-//    public func signup(userName: String, password)
-    
-    
+    public func showReviewsForTable(tableId: String, completion: @escaping CompletionClosure) {
+        
+        let urlEnd = "/Restaurants"
+        
+        Alamofire.request(Config.baseURL + urlEnd, method: .get, headers: Config.headers).responseJSON(completionHandler: {response in
+            Parser.parse(json: response.result.value ?? "", completion: {(response:(Result<[Restaurant], Error>)) in
+                switch response {
+                case .success(let restaurants): completion(.success(restaurants))
+                case .failure(_): break
+                    
+                }
+            })
+        })
+    }
     
 }

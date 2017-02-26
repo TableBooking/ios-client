@@ -11,33 +11,18 @@ import UIKit
 final class Restaurant: NSObject {
     var restaurantId:String!
     var name:String!
-    var location:String!
-    var cuisine:[String]!
+    var location:Location!
+    var cuisines:String!
     var tables:[Date]!
     var desc: String!
-    var image: Data?
+    var averagePrice: Int!
+    var imagePath: String?
     var phoneNumber: String?
     var rating:Float?
     var closingTime: Date?
     var openingTime: Date?
 }
-//"restaurantId":1,
-//    "name":"TestRestaurant",
-//    "description":null,
-//    "rating":0.0,
-//    "cuisine":null,
-//    "phoneNumber":null,
-//    "imagePath":null,
-//    "averageCheck":null,
-//    "openingTime":"0001-01-01T00:00:00",
-//    "closingTime":"0001-01-01T00:00:00",
-//    "locationId":null,
-//    "location":null,
-//    "tables":null,
-//    "reviews":null,
-//    "bookings":null,
-//    "adminId":null,
-//    "admin":null}
+
 
 
 extension Restaurant: Mappable{
@@ -46,20 +31,38 @@ extension Restaurant: Mappable{
         guard let restaurantJSON = o  as? [String: Any],
             let name = restaurantJSON["name"] as? String,
             let description = restaurantJSON["description"] as? String,
-            let rating = restaurantJSON["rating"] as? String,
-            let cuisines = restaurantJSON["cuisine"] ,
+            let rating = restaurantJSON["rating"] as? Float,
+            let cuisines = restaurantJSON["cuisine"] as? String,
             let phoneNumber = restaurantJSON["phoneNumber"] as? String,
-            let imagePath = restaurantJSON["imagePath"],
+            let imagePath = restaurantJSON["imagePath"] as? String,
             let averageCheck = restaurantJSON["averageCheck"] as? Int,
             let openingTimeUTC = restaurantJSON["openingTime"] as? String,
             let closingTimeUTC = restaurantJSON["closingTime"] as? String,
-            let location = restaurantJSON["location"],
-            let tables = restaurantJSON["tables"] ,
-            let reviews = restaurantJSON["reviews"] else {
-            return .failure(.parser("No such attribute in JSON."))
+            let locationJSON = restaurantJSON["location"] as? [String: Any],
+            let latitude = locationJSON["latitude"] as? Double,
+            let longtitude = locationJSON["longitude"] as? Double,
+            let adress = locationJSON["address"] as? String else {
+            return .failure(.parser("Error parsing JSON"))
         }
-        var restaurant = Restaurant()
+        
+        let restaurant = Restaurant()
+        
         restaurant.name = name
-        return .success(Restaurant())
+        restaurant.desc = description
+        restaurant.rating = rating
+        restaurant.phoneNumber = phoneNumber
+        restaurant.averagePrice = averageCheck
+        restaurant.imagePath = imagePath
+        restaurant.cuisines = cuisines
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
+        
+        restaurant.location = Location(address: adress, longitude: Double(longtitude), latitude: Double(latitude))
+        
+        restaurant.openingTime = dateFormatter.date(from: openingTimeUTC)
+        restaurant.closingTime = dateFormatter.date(from: closingTimeUTC)
+        
+        return .success(restaurant)
     }
 }

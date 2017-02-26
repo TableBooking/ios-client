@@ -12,6 +12,12 @@ struct Config {
     static let baseURL = "http://176.38.19.48:5000"
     static let googleApiKey = "AIzaSyCliEhiXf7KuVIgT2xlEacu6VPj2wGmcAQ"
     static let defaultPeopleQtyForTable: UInt = 2
+    static let googleMapsZoom: Float = 15.0
+    
+    static let headers = [
+        "Content-Type": "application/x-www-form-urlencoded",
+        "User-Agent":"ios-mobile-client"
+    ]
 }
 
 struct Color {

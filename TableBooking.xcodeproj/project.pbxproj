@@ -11,7 +11,6 @@
 		341596421DBCD92D00A5D68C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341596411DBCD92D00A5D68C /* AppDelegate.swift */; };
 		341596471DBCD92D00A5D68C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341596451DBCD92D00A5D68C /* Main.storyboard */; };
 		3415964A1DBCD92D00A5D68C /* TableBooking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 341596481DBCD92D00A5D68C /* TableBooking.xcdatamodeld */; };
-		3415964C1DBCD92D00A5D68C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3415964B1DBCD92D00A5D68C /* Assets.xcassets */; };
 		3415964F1DBCD92D00A5D68C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3415964D1DBCD92D00A5D68C /* LaunchScreen.storyboard */; };
 		3415965A1DBCD92D00A5D68C /* TableBookingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341596591DBCD92D00A5D68C /* TableBookingTests.swift */; };
 		341596651DBCD92D00A5D68C /* TableBookingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341596641DBCD92D00A5D68C /* TableBookingUITests.swift */; };
@@ -21,6 +20,7 @@
 		34172AD51DE1F85E0005EAAA /* Numebers+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34172AD41DE1F85E0005EAAA /* Numebers+Format.swift */; };
 		343C0E321DE8EF3600B83950 /* DatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 343C0E311DE8EF3600B83950 /* DatePickerView.xib */; };
 		343C0E341DE8EFEF00B83950 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343C0E331DE8EFEF00B83950 /* DatePickerView.swift */; };
+		3466C62A1E5B3A0600DA021A /* CoreDataStackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3466C6291E5B3A0600DA021A /* CoreDataStackManager.swift */; };
 		34946FD11DF3732A0038FEF0 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34946FD01DF3732A0038FEF0 /* Restaurant.swift */; };
 		34946FD31DF38A5D0038FEF0 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34946FD21DF38A5D0038FEF0 /* Location.swift */; };
 		3495A4A71DE105D1005503E3 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3495A4A61DE105D1005503E3 /* RestaurantTableViewCell.swift */; };
@@ -69,7 +69,6 @@
 		341596411DBCD92D00A5D68C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		341596461DBCD92D00A5D68C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		341596491DBCD92D00A5D68C /* TableBooking.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TableBooking.xcdatamodel; sourceTree = "<group>"; };
-		3415964B1DBCD92D00A5D68C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3415964E1DBCD92D00A5D68C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		341596501DBCD92D00A5D68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		341596551DBCD92D00A5D68C /* TableBookingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableBookingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +85,7 @@
 		34172AD41DE1F85E0005EAAA /* Numebers+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Numebers+Format.swift"; sourceTree = "<group>"; };
 		343C0E311DE8EF3600B83950 /* DatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerView.xib; sourceTree = "<group>"; };
 		343C0E331DE8EFEF00B83950 /* DatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		3466C6291E5B3A0600DA021A /* CoreDataStackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStackManager.swift; sourceTree = "<group>"; };
 		34946FD01DF3732A0038FEF0 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		34946FD21DF38A5D0038FEF0 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		3495A4A61DE105D1005503E3 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
@@ -150,6 +150,14 @@
 				859E1CD5EFA8303704C23195 /* Pods-TableBookingUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		340A17781E54999100EF6206 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				34B63A8E1DEF67CE00DC7B02 /* HistoryItemTableViewCell.swift */,
+			);
+			name = History;
 			sourceTree = "<group>";
 		};
 		341596351DBCD92C00A5D68C = {
@@ -236,7 +244,6 @@
 		34A171A11DE6F33E0054E1ED /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3415964B1DBCD92D00A5D68C /* Assets.xcassets */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -307,10 +314,10 @@
 		34F495861DDF9F5A00DF791E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				34F4958A1DDFA43D00DF791E /* Common */,
 				34F4958D1DDFA6D200DF791E /* Search */,
+				340A17781E54999100EF6206 /* History */,
+				34F4958A1DDFA43D00DF791E /* Common */,
 				34172AC71DE1BF620005EAAA /* External views */,
-				34B63A8E1DEF67CE00DC7B02 /* HistoryItemTableViewCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -330,6 +337,7 @@
 			children = (
 				34A171991DE5FC3A0054E1ED /* Config.swift */,
 				34A1719B1DE60F330054E1ED /* DataAPI.swift */,
+				3466C6291E5B3A0600DA021A /* CoreDataStackManager.swift */,
 				34A1719F1DE6F18D0054E1ED /* Parser.swift */,
 				34A171A21DE6F6290054E1ED /* Error.swift */,
 				34A171A41DE6F6360054E1ED /* Result.swift */,
@@ -457,7 +465,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Nikita Kirichek";
 				TargetAttributes = {
 					3415963D1DBCD92C00A5D68C = {
@@ -507,7 +515,6 @@
 			files = (
 				34A171AE1DE86F650054E1ED /* PeopleQtyPickerView.xib in Resources */,
 				3415964F1DBCD92D00A5D68C /* LaunchScreen.storyboard in Resources */,
-				3415964C1DBCD92D00A5D68C /* Assets.xcassets in Resources */,
 				343C0E321DE8EF3600B83950 /* DatePickerView.xib in Resources */,
 				341596471DBCD92D00A5D68C /* Main.storyboard in Resources */,
 			);
@@ -680,6 +687,7 @@
 				34172AC61DE1BA340005EAAA /* NMRangeSlider.m in Sources */,
 				34A171A01DE6F18D0054E1ED /* Parser.swift in Sources */,
 				343C0E341DE8EFEF00B83950 /* DatePickerView.swift in Sources */,
+				3466C62A1E5B3A0600DA021A /* CoreDataStackManager.swift in Sources */,
 				34F495911DDFCB0600DF791E /* StartTabBarViewController.swift in Sources */,
 				34946FD11DF3732A0038FEF0 /* Restaurant.swift in Sources */,
 				34946FD31DF38A5D0038FEF0 /* Location.swift in Sources */,

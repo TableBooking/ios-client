@@ -615,22 +615,6 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TableBooking/SearchViewController.swift"
-            timestampString = "501851596.207737"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "SearchViewController"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "TableBooking/PeopleQtyPickerView.swift"
             timestampString = "501800476.4977"
             startingColumnNumber = "9223372036854775807"
@@ -728,27 +712,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TableBooking/SearchViewController.swift"
-            timestampString = "502199602.322227"
+            timestampString = "502640782.700613"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
-            landmarkName = "viewWillAppear(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TableBooking/SearchViewController.swift"
-            timestampString = "502483674.219273"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
             landmarkName = "SearchViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -872,11 +840,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TableBooking/SearchViewController.swift"
-            timestampString = "502199602.322227"
+            timestampString = "502640782.700613"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "108"
-            endingLineNumber = "108"
+            startingLineNumber = "154"
+            endingLineNumber = "154"
             landmarkName = "SearchViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -904,11 +872,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TableBooking/SearchViewController.swift"
-            timestampString = "502198522.45878"
+            timestampString = "502584411.508512"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1030,11 +998,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TableBooking/SearchViewController.swift"
-            timestampString = "502198522.45878"
+            timestampString = "502584411.508512"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1062,43 +1030,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TableBooking/SearchViewController.swift"
-            timestampString = "502492092.170479"
+            timestampString = "502640782.700613"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "202"
-            endingLineNumber = "202"
-            landmarkName = "SearchViewController"
-            landmarkType = "4">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TableBooking/SearchViewController.swift"
-            timestampString = "502492092.170479"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "240"
-            endingLineNumber = "240"
-            landmarkName = "valueChanged(pickerView:qty:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TableBooking/SearchViewController.swift"
-            timestampString = "502199602.322227"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "105"
-            endingLineNumber = "105"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
             landmarkName = "openMaps(sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1110,28 +1046,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TableBooking/SearchViewController.swift"
-            timestampString = "502483674.219273"
+            timestampString = "502640782.700613"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "127"
-            endingLineNumber = "127"
+            startingLineNumber = "173"
+            endingLineNumber = "173"
             landmarkName = "setDefaultTitleForDateButton()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TableBooking/SearchViewController.swift"
-            timestampString = "502492092.170479"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "214"
-            endingLineNumber = "214"
-            landmarkName = "valueChanged(dateView:date:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1236,11 +1156,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TableBooking/RestaurantPageViewController.swift"
-            timestampString = "502231261.207571"
+            timestampString = "502584411.508512"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1252,27 +1172,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TableBooking/RestaurantPageViewController.swift"
-            timestampString = "502377766.305696"
+            timestampString = "502584411.508512"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
-            landmarkName = "didReceiveMemoryWarning()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TableBooking/RestaurantPageViewController.swift"
-            timestampString = "502231261.207571"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1284,11 +1188,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TableBooking/SearchViewController.swift"
-            timestampString = "502197851.858266"
+            timestampString = "502584411.508512"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1300,11 +1204,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TableBooking/SearchViewController.swift"
-            timestampString = "502483674.219273"
+            timestampString = "502640782.700613"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "130"
-            endingLineNumber = "130"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
             landmarkName = "setUpGooglePlaces()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1364,28 +1268,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TableBooking/SearchViewController.swift"
-            timestampString = "502360729.965001"
+            timestampString = "502640782.700613"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "104"
-            endingLineNumber = "104"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
             landmarkName = "openMaps(sender:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TableBooking/SearchViewController.swift"
-            timestampString = "502360740.669796"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
-            landmarkName = "viewWillAppear(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1412,11 +1300,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TableBooking/SearchViewController.swift"
-            timestampString = "502463195.25557"
+            timestampString = "502640782.700613"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
             landmarkName = "setTime(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1428,11 +1316,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TableBooking/SearchViewController.swift"
-            timestampString = "502483674.219273"
+            timestampString = "502640782.700613"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
             landmarkName = "filter(sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1443,13 +1331,45 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TableBooking/Restaurant.swift"
-            timestampString = "502510230.69988"
+            filePath = "TableBooking/SearchViewController.swift"
+            timestampString = "502640782.700613"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
-            landmarkName = "mapToModel(o:)"
+            startingLineNumber = "239"
+            endingLineNumber = "239"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TableBooking/RestaurantPageViewController.swift"
+            timestampString = "502584411.508512"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "RestaurantPageViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TableBooking/BookPageViewController.swift"
+            timestampString = "502589172.780777"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
+            landmarkName = "textView(_:shouldChangeTextIn:replacementText:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1459,13 +1379,61 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TableBooking/DataAPI.swift"
-            timestampString = "502510282.621325"
+            filePath = "TableBooking/SearchViewController.swift"
+            timestampString = "502640782.700613"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "getAllRestaurants()"
+            startingLineNumber = "157"
+            endingLineNumber = "157"
+            landmarkName = "filter(sender:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TableBooking.SearchViewController.filter (sender : __ObjC.UIBarButtonItem) -&gt; ()"
+                  moduleName = "TableBooking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirichek/Documents/Projects/TableBooking/TableBookingDev/ios-client/TableBooking/SearchViewController.swift"
+                  timestampString = "502640232.222001"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "158"
+                  endingLineNumber = "158"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TableBooking.SearchViewController.(filter (sender : __ObjC.UIBarButtonItem) -&gt; ()).(closure #1)"
+                  moduleName = "TableBooking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirichek/Documents/Projects/TableBooking/TableBookingDev/ios-client/TableBooking/SearchViewController.swift"
+                  timestampString = "502640232.227884"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "158"
+                  endingLineNumber = "158"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TableBooking/SearchViewController.swift"
+            timestampString = "502640782.700613"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

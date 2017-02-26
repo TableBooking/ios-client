@@ -39,12 +39,13 @@ class SearchViewController: UIViewController {
     
     var chosenTime: Date?
     var chosenQty: UInt?
+    var restaurants:[Restaurant] = []
+    var selectedRestaurant: Restaurant?
     
     // MARK: - View Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         
         //Colors
         view.backgroundColor = Color.TBBackground
@@ -64,6 +65,41 @@ class SearchViewController: UIViewController {
         
         setUpGooglePlaces()
         
+        let rest1 = Restaurant()
+        let rest2 = Restaurant()
+        let rest3 = Restaurant()
+        let rest4 = Restaurant()
+        let rest5 = Restaurant()
+        
+        rest1.name = "Le bernardin"
+        rest2.name = "Bouley"
+        rest3.name = "Jean-Georges"
+        rest4.name = "Daiel"
+        rest5.name = "Gotham Bar and Grill"
+        
+      
+        rest1.location = Location(address: "155 West 51st Street New York, New York 10019", longitude: 100, latitude: 100)
+        rest2.location = Location(address: "163 Duane Street New York, New York 10013", longitude: 100, latitude: 100)
+        rest3.location = Location(address: "1 Central Park West New York, New York 10023", longitude: 100, latitude: 100)
+        rest4.location = Location(address: "60 East 65th StreetNew York, New York 10065", longitude: 100, latitude: 100)
+        rest5.location = Location(address: "12 E 12th St New York, New York 10003", longitude:-73.993805, latitude: 40.734244)
+        rest1.imagePath = "bernandin.jpg"
+        rest2.imagePath = "bouley.jpg"
+        rest3.imagePath = "jean.jpg"
+        rest4.imagePath = "daniel.jpg"
+        rest5.imagePath = "got.jpg"
+    
+        
+        //        rest3.location.address = "1 Central Park West New York, New York 10023"
+        //        rest4.location.address = "60 East 65th StreetNew York, New York 10065"
+        //        rest5.location.address = "12 E 12th St New York, New York 10003"
+        
+        restaurants.append(rest1)
+        restaurants.append(rest2)
+        restaurants.append(rest3)
+        restaurants.append(rest4)
+        restaurants.append(rest5)
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -81,6 +117,16 @@ class SearchViewController: UIViewController {
         rightBarButtonItem.tintColor = Color.TBBackground
         navigationItem.leftBarButtonItem = leftBarButtonItem
         navigationItem.rightBarButtonItem = rightBarButtonItem
+        
+        DataAPI.sharedInstance.getAllRestaurants {result in
+            switch result {
+            case .success(let restaurants):
+                self.restaurants =  (restaurants as? [Restaurant])!
+                self.reloadTableView()
+            default:break
+            }
+        }
+        
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -101,14 +147,14 @@ class SearchViewController: UIViewController {
     }
     
     func openMaps(sender: UIBarButtonItem){
-        DataAPI.sharedInstance.getAllRestaurants()
+        
         print("Hello")
         reloadTableView()
     }
     
     func filter(sender: UIBarButtonItem){
         self.performSegue(withIdentifier: "filterSearchSegue", sender: self);
-        DataAPI.sharedInstance.login(userName: "", password: "")
+        DataAPI.sharedInstance.bookTable(restaurantId: 2, time: Date(), qty: 2, completion: {result in print("")})
     }
     
     
@@ -185,15 +231,21 @@ class SearchViewController: UIViewController {
     }
     
     
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destinationViewController.
-     // Pass the selected object to the new view controller.
-     }
-     */
+    
+    //MARK: - Navigation
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        switch segue.identifier! {
+        case "restaurantSearchSegue":
+            if let restaurantViewController = segue.destination as? RestaurantPageViewController {
+                restaurantViewController.restaurant = selectedRestaurant!
+            }
+        default: break
+        }
+    }
+    
     
 }
 
@@ -253,19 +305,21 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1;
+        return restaurants.count;
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellIdentifier = "restaurantTableViewCell"
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! RestaurantTableViewCell;
-        cell.nameLabel.text = "Rest1"
-        cell.restImage.image = UIImage(named: "restaurant-test")
+        cell.nameLabel.text = restaurants[indexPath.item].name
+        cell.adressLabel.text = restaurants[indexPath.item].location.address
+        cell.restImage.image = UIImage(named: restaurants[indexPath.item].imagePath!)
         return cell;
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-         performSegue(withIdentifier: "restaurantSearchSegue", sender: self)
+        selectedRestaurant = restaurants[indexPath.item]
+        performSegue(withIdentifier: "restaurantSearchSegue", sender: self)
     }
     
 }
@@ -273,7 +327,7 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
 // MARK: - GMSAutocompleteResultsViewControllerDelegate
 
 extension SearchViewController: GMSAutocompleteResultsViewControllerDelegate {
-
+    
     func resultsController(_ resultsController: GMSAutocompleteResultsViewController, didAutocompleteWith place: GMSPlace) {
         searchController?.isActive = false
         // Do something with the selected place.

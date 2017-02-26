@@ -14,46 +14,29 @@ protocol Mappable {
 
 class Parser: NSObject {
 
-    func parse<T: Mappable>(_ data: Data, completion: (Result<[T], Error>) -> Void) {
-        
-        switch decodeData(data) {
-            
-        case .success(let result):
-            
-            guard let array = result as? [AnyObject] else {
-                completion(.failure(.parser("")));
+    static func parse<T: Mappable>(json: Any, completion: (Result<[T], Error>) -> Void) {
+    
+            guard let array = json as? [AnyObject] else {
+                completion(.failure(.parser("Received json is not valid")));
                 return
             }
             
-            let result: Result<[T], Error> = arrayToModels(array)
+            let result: Result<[T], Error> = Parser.arrayToModels(array)
             completion(result)
-            
-        case .failure:
-            completion(.failure(.parser("")))
-        }
+
     }
     
-    private func arrayToModels<T: Mappable>(_ objects: [AnyObject]) -> Result<[T], Error> {
+    private static func arrayToModels<T: Mappable>(_ objects: [AnyObject]) -> Result<[T], Error> {
         
         var convertAndCleanArray: [T] = []
         
         for object in objects {
             
-            guard case .success(let model) = T.mapToModel(o: object) else { continue }
-            convertAndCleanArray.append(model)
+            switch T.mapToModel(o: object) {
+            case .success(let model): convertAndCleanArray.append(model)
+            case .failure(let error): print(error)
+            }
         }
-        
         return .success(convertAndCleanArray)
-    }
-    
-    private func decodeData(_ data: Data) -> Result<Any, Error> {
-        
-        do {
-            let json = try JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions())
-            return .success(json)
-        }
-        catch {
-            return .failure(.parser(""))
-        }
     }
 }

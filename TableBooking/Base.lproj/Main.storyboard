@@ -31,7 +31,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="130"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dCp-pv-vmq" id="NfA-kY-F3E">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="129"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="129.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="onZ-q3-gBd">
@@ -239,7 +239,7 @@
                                         <rect key="frame" x="0.0" y="1" width="375" height="130"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rw9-JI-gpH" id="VPt-7m-o0z">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="129"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="g3d-WB-Lxv">
@@ -249,15 +249,15 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restaurant's name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DXK-s5-uZ1">
-                                                    <rect key="frame" x="119" y="6" width="181" height="75"/>
+                                                    <rect key="frame" x="119" y="6" width="248" height="75"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adress" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XEB-Ol-yxE">
-                                                    <rect key="frame" x="119" y="51" width="53" height="48"/>
+                                                    <rect key="frame" x="119" y="51" width="248" height="48"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="53" id="GKV-zV-zkk"/>
+                                                        <constraint firstAttribute="width" constant="248" id="GKV-zV-zkk"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
@@ -266,7 +266,7 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="DXK-s5-uZ1" firstAttribute="leading" secondItem="g3d-WB-Lxv" secondAttribute="trailing" constant="21" id="0LM-34-tZ0"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="DXK-s5-uZ1" secondAttribute="trailing" constant="67" id="4ZT-2S-GeN"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="DXK-s5-uZ1" secondAttribute="trailing" id="4ZT-2S-GeN"/>
                                                 <constraint firstItem="DXK-s5-uZ1" firstAttribute="leading" secondItem="XEB-Ol-yxE" secondAttribute="leading" id="50b-CP-xWF"/>
                                                 <constraint firstItem="g3d-WB-Lxv" firstAttribute="centerY" secondItem="VPt-7m-o0z" secondAttribute="centerY" constant="-13.5" id="DYc-6R-iHp"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="DXK-s5-uZ1" secondAttribute="bottom" constant="40.5" id="F4S-do-A8Q"/>

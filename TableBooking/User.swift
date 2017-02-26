@@ -17,10 +17,7 @@ final class User: NSObject  {
 extension User: Mappable{
 
     static func mapToModel(o: AnyObject) -> Result<User, Error> {
-        var user = User()
-    
-        
-        return .success(user)
+        return .success(User())
     }
 
 }

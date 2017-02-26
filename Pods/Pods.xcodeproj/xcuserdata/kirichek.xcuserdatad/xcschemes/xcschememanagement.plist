@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>AlamofireImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-TableBooking.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,11 +42,6 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0B23457787E4192F8B419BFE8031332E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>1972A31D6136713FD6FBAA4989B0D0FA</key>
 		<dict>
 			<key>primary</key>
@@ -52,7 +52,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>27652042D06B1176D0CC476051ACF2CC</key>
+		<key>5361270835B02573B29D91F1D7B1E8D4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>54C29EE26FA85C69F966895C98C64FDE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5F6922D2FC1EBAA24B67F12805049546</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,7 +72,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AFDD390EDBBCC9A06A0B2B3363B87560</key>
+		<key>9EFE4C70245EE2857D336B8B9FA4E825</key>
 		<dict>
 			<key>primary</key>
 			<true/>

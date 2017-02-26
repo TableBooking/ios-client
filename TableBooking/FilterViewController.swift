@@ -147,7 +147,7 @@ class FilterViewController: UIViewController {
     // MARK: - Helpers
     
     func done(sender: UIBarButtonItem){
-        navigationController?.popViewController(animated: true)
+        _ = navigationController?.popViewController(animated: true)
     }
     
     /*
