@@ -1,0 +1,14 @@
+{
+    "name": "Oslo Cool Grill House",
+    "description": "Welcome to The Grillhouse, Johannesburg’s most loved and well established premium steakhouse. Established in 1995, The Grillhouse offers the perfect quadfecta in dining – great food, a huge selection of fine wines and malts, stellar service and an upmarket yet warm and hospitable atmosphere.",
+    "rating": 4.3,
+    "phoneNumber": "+350234432253",
+    "averageCheck": 34,
+    "openingTime": "2000-01-01 08:00:00",
+    "closingTime": "2000-01-01 01:00:00",
+    "imagePath": "restaurant-test",
+    "cuisine": "Medeterian, French, American",
+    "address": "Shop 1, The Firs / Hyatt Centre, C/O Oxford Road & Biermann Avenue, Rosebank",
+    "latitude": -26.83641,
+    "longtitude": 28.23327,
+}
