@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Location {
+struct TBLocation {
     var address: String?
     var longitude:Double!
     var latitude:Double!

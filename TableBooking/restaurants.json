@@ -1,14 +1,34 @@
-{
-    "name": "Oslo Cool Grill House",
-    "description": "Welcome to The Grillhouse, Johannesburg’s most loved and well established premium steakhouse. Established in 1995, The Grillhouse offers the perfect quadfecta in dining – great food, a huge selection of fine wines and malts, stellar service and an upmarket yet warm and hospitable atmosphere.",
-    "rating": 4.3,
-    "phoneNumber": "+350234432253",
-    "averageCheck": 34,
-    "openingTime": "2000-01-01 08:00:00",
-    "closingTime": "2000-01-01 01:00:00",
-    "imagePath": "restaurant-test",
-    "cuisine": "Medeterian, French, American",
-    "address": "Shop 1, The Firs / Hyatt Centre, C/O Oxford Road & Biermann Avenue, Rosebank",
-    "latitude": -26.83641,
-    "longtitude": 28.23327,
-}
+[
+ {
+  "name": "Oslo Cool Grill House",
+  "description": "Welcome to The Grillhouse, Johannesburg’s most loved and well established premium steakhouse. Established in 1995, The Grillhouse offers the perfect quadfecta in dining – great food, a huge selection of fine wines and malts, stellar service and an upmarket yet warm and hospitable atmosphere.",
+  "rating": 4.3,
+  "phoneNumber": "+350234432253",
+  "averageCheck": 34,
+  "openingTime": "2000-01-01T08:00:00",
+  "closingTime": "2000-01-01T01:00:00",
+  "imagePath": "restaurant-test",
+  "cuisine": "Medeterian, French, American",
+  "location": {
+		"address": "Shop 1, The Firs / Hyatt Centre, C/O Oxford Road & Biermann Avenue, Rosebank",
+		"latitude": 28.23327,
+		"longtitude": -26.83641
+  }
+ },
+ {
+  "name": "Baiwei",
+  "description": "Following on from big hitters Bar Shu, Ba Shan and the Baozi Inn, “scruffy, but cool-looking” Baiwei completes a gang of four Szechuan firecrackers in Soho Chinatown. The name means ‘a hundred flavours’, and the kitchen deals in authentic home-style dishes from the south-western province and neighbouring areas, with chilli warnings and plenty of anatomical curiosities on the pictorial menu. Choose from a lengthy assortment of ‘cold’ and ‘hot’ specialities ranging from aubergines with preserved egg or plates of pig’s ear, tongue and tripe dressed with astringent black vinegar to chilli-flecked lamb with roasted rice, bowls of dan-dan noodles or beef and coriander won tons in broth. It’s a tiny space with Spartan decor – save for some hand-painted Maoist propaganda posters proclaiming ‘the big leap forward’. Service can be “grouchy”, but it warms up slowly.",
+  "rating": 1.4,
+  "phoneNumber": "+310234432253",
+  "averageCheck": 234,
+  "openingTime": "2000-01-01T08:00:00",
+  "closingTime": "2000-01-01T01:00:00",
+  "imagePath": "https://media.timeout.com/images/102796991/750/422/image.jpg",
+  "cuisine": "Chineese, Asian",
+  "location": {
+		"address": "8 Little Newport St, London, UK",
+		"latitude": -0.129186,
+		"longtitude": 51.511837
+ }
+ }
+]

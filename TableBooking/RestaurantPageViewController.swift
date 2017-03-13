@@ -30,7 +30,7 @@ class RestaurantPageViewController: UIViewController {
     
     // MARK: - Local Helpers
     
-    var restaurant: Restaurant!
+    var restaurant: TBRestaurant!
 
     
     override func viewDidLoad() {

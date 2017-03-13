@@ -39,8 +39,8 @@ class SearchViewController: UIViewController {
     
     var chosenTime: Date?
     var chosenQty: UInt?
-    var restaurants:[Restaurant] = []
-    var selectedRestaurant: Restaurant?
+    var restaurants:[TBRestaurant] = []
+    var selectedRestaurant: TBRestaurant?
     
     // MARK: - View Lifecycle
     
@@ -64,41 +64,7 @@ class SearchViewController: UIViewController {
         setUpQtyPicker()
         
         setUpGooglePlaces()
-        
-        let rest1 = Restaurant()
-        let rest2 = Restaurant()
-        let rest3 = Restaurant()
-        let rest4 = Restaurant()
-        let rest5 = Restaurant()
-        
-        rest1.name = "Le bernardin"
-        rest2.name = "Bouley"
-        rest3.name = "Jean-Georges"
-        rest4.name = "Daiel"
-        rest5.name = "Gotham Bar and Grill"
-        
-      
-        rest1.location = Location(address: "155 West 51st Street New York, New York 10019", longitude: 100, latitude: 100)
-        rest2.location = Location(address: "163 Duane Street New York, New York 10013", longitude: 100, latitude: 100)
-        rest3.location = Location(address: "1 Central Park West New York, New York 10023", longitude: 100, latitude: 100)
-        rest4.location = Location(address: "60 East 65th StreetNew York, New York 10065", longitude: 100, latitude: 100)
-        rest5.location = Location(address: "12 E 12th St New York, New York 10003", longitude:-73.993805, latitude: 40.734244)
-        rest1.imagePath = "bernandin.jpg"
-        rest2.imagePath = "bouley.jpg"
-        rest3.imagePath = "jean.jpg"
-        rest4.imagePath = "daniel.jpg"
-        rest5.imagePath = "got.jpg"
-    
-        
-        //        rest3.location.address = "1 Central Park West New York, New York 10023"
-        //        rest4.location.address = "60 East 65th StreetNew York, New York 10065"
-        //        rest5.location.address = "12 E 12th St New York, New York 10003"
-        
-        restaurants.append(rest1)
-        restaurants.append(rest2)
-        restaurants.append(rest3)
-        restaurants.append(rest4)
-        restaurants.append(rest5)
+       
         
     }
     
@@ -121,7 +87,7 @@ class SearchViewController: UIViewController {
         DataAPI.sharedInstance.getAllRestaurants {result in
             switch result {
             case .success(let restaurants):
-                self.restaurants =  (restaurants as? [Restaurant])!
+                self.restaurants =  (restaurants as? [TBRestaurant])!
                 self.reloadTableView()
             default:break
             }

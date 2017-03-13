@@ -8,10 +8,10 @@
 
 import UIKit
 
-final class Restaurant: NSObject {
+final class TBRestaurant: NSObject {
     var restaurantId:String!
     var name:String!
-    var location:Location!
+    var location:TBLocation!
     var cuisines:String!
     var tables:[Date]!
     var desc: String!
@@ -25,9 +25,9 @@ final class Restaurant: NSObject {
 
 
 
-extension Restaurant: Mappable{
+extension TBRestaurant: Mappable{
     
-    static func mapToModel(o: AnyObject) -> Result<Restaurant, Error> {
+    static func mapToModel(o: AnyObject) -> Result<TBRestaurant, Error> {
         guard let restaurantJSON = o  as? [String: Any],
             let name = restaurantJSON["name"] as? String,
             let description = restaurantJSON["description"] as? String,
@@ -45,7 +45,7 @@ extension Restaurant: Mappable{
             return .failure(.parser("Error parsing JSON"))
         }
         
-        let restaurant = Restaurant()
+        let restaurant = TBRestaurant()
         
         restaurant.name = name
         restaurant.desc = description
@@ -58,7 +58,7 @@ extension Restaurant: Mappable{
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
         
-        restaurant.location = Location(address: adress, longitude: Double(longtitude), latitude: Double(latitude))
+        restaurant.location = TBLocation(address: adress, longitude: Double(longtitude), latitude: Double(latitude))
         
         restaurant.openingTime = dateFormatter.date(from: openingTimeUTC)
         restaurant.closingTime = dateFormatter.date(from: closingTimeUTC)

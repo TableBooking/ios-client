@@ -34,7 +34,7 @@ class DataAPI: NSObject {
         let urlEnd = "/Restaurants"
         
         Alamofire.request(Config.baseURL + urlEnd, method: .get, headers: Config.headers).responseJSON(completionHandler: {response in
-            Parser.parse(json: response.result.value ?? "", completion: {(response:(Result<[Restaurant], Error>)) in
+            Parser.parse(json: response.result.value ?? "", completion: {(response:(Result<[TBRestaurant], Error>)) in
                 switch response {
                 case .success(let restaurants): completion(.success(restaurants))
                 case .failure(_): break
@@ -78,7 +78,7 @@ class DataAPI: NSObject {
         let urlEnd = "/Restaurants"
         
         Alamofire.request(Config.baseURL + urlEnd, method: .get, headers: Config.headers).responseJSON(completionHandler: {response in
-            Parser.parse(json: response.result.value ?? "", completion: {(response:(Result<[Restaurant], Error>)) in
+            Parser.parse(json: response.result.value ?? "", completion: {(response:(Result<[TBRestaurant], Error>)) in
                 switch response {
                 case .success(let restaurants): completion(.success(restaurants))
                 case .failure(_): break
