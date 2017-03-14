@@ -65,6 +65,13 @@ class SearchViewController: UIViewController {
         
         setUpGooglePlaces()
        
+        DataApiForTesting.sharedInstance.getAllRestaurants(completion: { result in
+            switch result {
+            case .success(let restaurantss):
+                self.restaurants = restaurantss as! [TBRestaurant]
+            case .failure(let error): break
+            }
+        })
         
     }
     

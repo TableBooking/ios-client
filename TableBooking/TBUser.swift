@@ -8,16 +8,16 @@
 
 import UIKit
 
-final class User: NSObject  {
+final class TBUser: NSObject  {
     var firstName: String!
     var lastName: String!
     var email: String!
 }
 
-extension User: Mappable{
+extension TBUser: Mappable{
 
-    static func mapToModel(o: AnyObject) -> Result<User, Error> {
-        return .success(User())
+    static func mapToModel(o: AnyObject) -> Result<TBUser, Error> {
+        return .success(TBUser())
     }
 
 }

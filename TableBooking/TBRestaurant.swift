@@ -1,5 +1,5 @@
 //
-//  Restaurant.swift
+//  TBRestaurant.swift
 //  TableBooking
 //
 //  Created by Nikita Kirichek on 12/3/16.
@@ -40,7 +40,7 @@ extension TBRestaurant: Mappable{
             let closingTimeUTC = restaurantJSON["closingTime"] as? String,
             let locationJSON = restaurantJSON["location"] as? [String: Any],
             let latitude = locationJSON["latitude"] as? Double,
-            let longtitude = locationJSON["longitude"] as? Double,
+            let longtitude = locationJSON["longtitude"] as? Double,
             let adress = locationJSON["address"] as? String else {
             return .failure(.parser("Error parsing JSON"))
         }

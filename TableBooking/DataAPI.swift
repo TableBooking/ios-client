@@ -57,11 +57,11 @@ class DataAPI: NSObject {
         
         let urlEnd = "/Booking/Reserve/"
         
-        let parameters:Parameters = ["RestaurantId":restaurantId,
-                                     "Date":time.description,
-                                     "Start":time.description,
-                                     "End":time.description,
-                                     "PeopleCount":2]
+        let parameters:Parameters = ["RestaurantId": restaurantId,
+                                     "Date": time.description,
+                                     "Start": time.description,
+                                     "End": time.description,
+                                     "PeopleCount": 2]
         
         Alamofire.request(Config.baseURL + urlEnd, method: .post,parameters: parameters, headers: Config.headers).responseString(completionHandler: {response in
             if response.result.isSuccess {

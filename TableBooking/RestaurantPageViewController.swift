@@ -35,7 +35,16 @@ class RestaurantPageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setUpViews()
+        setRestaurantDataForViews()
+        configureGoogleMap(lg: restaurant.location.longitude, lt: restaurant.location.latitude)
+    }
+   
+    @IBAction func book(_ sender: UIButton) {
+        performSegue(withIdentifier: "bookTableSegue", sender: self)
+    }
+    
+    func setUpViews() {
         scrollView.frame.size = CGSize(width: 375,height: 603)
         scrollView.contentSize = CGSize(width: 375,height: 840)
         view.backgroundColor = Color.TBBackground
@@ -46,13 +55,6 @@ class RestaurantPageViewController: UIViewController {
         restaurantDescription.backgroundColor = Color.TBBackground
         restaurantDescription.isEditable = false
         navigationController?.navigationBar.tintColor = Color.TBBackground
-        
-        setRestaurantDataForViews()
-        configureGoogleMap(lg: restaurant.location.longitude, lt: restaurant.location.latitude)
-    }
-   
-    @IBAction func book(_ sender: UIButton) {
-        performSegue(withIdentifier: "bookTableSegue", sender: self)
     }
     
     func setRestaurantDataForViews() {

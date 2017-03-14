@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fAA-eO-KII">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fAA-eO-KII">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -106,7 +106,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="History" image="History" id="Il3-5K-Ffz" userLabel="MyTable"/>
+                    <tabBarItem key="tabBarItem" title="History" image="history-icon" selectedImage="history-icon" id="Il3-5K-Ffz" userLabel="MyTable"/>
                     <navigationItem key="navigationItem" id="PJp-vh-sJl"/>
                     <connections>
                         <outlet property="orderHistory" destination="sJl-Hm-Mjc" id="g5E-cH-ib0"/>
@@ -120,11 +120,11 @@
         <scene sceneID="gBE-lW-C0X">
             <objects>
                 <navigationController id="rtD-sv-FK0" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="History" image="History" id="OCs-3K-Vkv" userLabel="MyTable"/>
+                    <tabBarItem key="tabBarItem" title="History" image="history-icon" selectedImage="history-icon" id="OCs-3K-Vkv" userLabel="MyTable"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1eA-sE-LfF">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="1eA-sE-LfF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -176,7 +176,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="User" image="UserIcon" id="oLq-jf-Eee" userLabel="User"/>
+                    <tabBarItem key="tabBarItem" title="User" image="UserIcon" selectedImage="user-icon" id="oLq-jf-Eee" userLabel="User"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fhk-QL-9W2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -186,8 +186,8 @@
         <scene sceneID="q5j-dm-F9M">
             <objects>
                 <navigationController id="CNY-FS-jKe" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="User" image="UserIcon" id="9yg-v4-6Vf" userLabel="User"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pmn-VY-tOw">
+                    <tabBarItem key="tabBarItem" title="User" image="user-icon" selectedImage="user-icon" id="9yg-v4-6Vf" userLabel="User"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="pmn-VY-tOw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -203,10 +203,10 @@
         <scene sceneID="q8X-TD-Pxp">
             <objects>
                 <navigationController id="WPr-I0-dNr" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Search" image="SearchIcon" id="rZb-kb-k4w" userLabel="Search"/>
+                    <tabBarItem key="tabBarItem" title="Search" image="search-icon" selectedImage="search-icon" id="rZb-kb-k4w" userLabel="Search"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dlr-KW-3WZ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="dlr-KW-3WZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -239,7 +239,7 @@
                                         <rect key="frame" x="0.0" y="1" width="375" height="130"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rw9-JI-gpH" id="VPt-7m-o0z">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="129.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="g3d-WB-Lxv">
@@ -733,8 +733,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="History" width="23" height="23"/>
-        <image name="SearchIcon" width="25" height="25"/>
         <image name="UserIcon" width="25" height="25"/>
+        <image name="history-icon" width="23" height="23"/>
+        <image name="search-icon" width="25" height="25"/>
+        <image name="user-icon" width="25" height="25"/>
     </resources>
 </document>

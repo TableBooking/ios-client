@@ -21,15 +21,16 @@
 		343979CC1E62FFE300B4697C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 343979CB1E62FFE300B4697C /* Assets.xcassets */; };
 		343C0E321DE8EF3600B83950 /* DatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 343C0E311DE8EF3600B83950 /* DatePickerView.xib */; };
 		343C0E341DE8EFEF00B83950 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343C0E331DE8EFEF00B83950 /* DatePickerView.swift */; };
+		343CAEC11E77DD850027495F /* DataApiForTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343CAEC01E77DD850027495F /* DataApiForTesting.swift */; };
 		3466C62A1E5B3A0600DA021A /* CoreDataStackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3466C6291E5B3A0600DA021A /* CoreDataStackManager.swift */; };
-		34946FD11DF3732A0038FEF0 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34946FD01DF3732A0038FEF0 /* Restaurant.swift */; };
-		34946FD31DF38A5D0038FEF0 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34946FD21DF38A5D0038FEF0 /* Location.swift */; };
+		34946FD11DF3732A0038FEF0 /* TBRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34946FD01DF3732A0038FEF0 /* TBRestaurant.swift */; };
+		34946FD31DF38A5D0038FEF0 /* TBLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34946FD21DF38A5D0038FEF0 /* TBLocation.swift */; };
 		3495A4A71DE105D1005503E3 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3495A4A61DE105D1005503E3 /* RestaurantTableViewCell.swift */; };
 		349A35111DE9ECE900D7578A /* RestaurantPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349A35101DE9ECE900D7578A /* RestaurantPageViewController.swift */; };
 		349A35131DE9F61000D7578A /* BookPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349A35121DE9F61000D7578A /* BookPageViewController.swift */; };
 		34A1719A1DE5FC3A0054E1ED /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A171991DE5FC3A0054E1ED /* Config.swift */; };
 		34A1719C1DE60F330054E1ED /* DataAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A1719B1DE60F330054E1ED /* DataAPI.swift */; };
-		34A1719E1DE6F0C00054E1ED /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A1719D1DE6F0C00054E1ED /* User.swift */; };
+		34A1719E1DE6F0C00054E1ED /* TBUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A1719D1DE6F0C00054E1ED /* TBUser.swift */; };
 		34A171A01DE6F18D0054E1ED /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A1719F1DE6F18D0054E1ED /* Parser.swift */; };
 		34A171A31DE6F6290054E1ED /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A171A21DE6F6290054E1ED /* Error.swift */; };
 		34A171A51DE6F6360054E1ED /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A171A41DE6F6360054E1ED /* Result.swift */; };
@@ -87,15 +88,16 @@
 		343979CB1E62FFE300B4697C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		343C0E311DE8EF3600B83950 /* DatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerView.xib; sourceTree = "<group>"; };
 		343C0E331DE8EFEF00B83950 /* DatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		343CAEC01E77DD850027495F /* DataApiForTesting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataApiForTesting.swift; sourceTree = "<group>"; };
 		3466C6291E5B3A0600DA021A /* CoreDataStackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStackManager.swift; sourceTree = "<group>"; };
-		34946FD01DF3732A0038FEF0 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
-		34946FD21DF38A5D0038FEF0 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		34946FD01DF3732A0038FEF0 /* TBRestaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBRestaurant.swift; sourceTree = "<group>"; };
+		34946FD21DF38A5D0038FEF0 /* TBLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBLocation.swift; sourceTree = "<group>"; };
 		3495A4A61DE105D1005503E3 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
 		349A35101DE9ECE900D7578A /* RestaurantPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantPageViewController.swift; sourceTree = "<group>"; };
 		349A35121DE9F61000D7578A /* BookPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookPageViewController.swift; sourceTree = "<group>"; };
 		34A171991DE5FC3A0054E1ED /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		34A1719B1DE60F330054E1ED /* DataAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAPI.swift; sourceTree = "<group>"; };
-		34A1719D1DE6F0C00054E1ED /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		34A1719D1DE6F0C00054E1ED /* TBUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBUser.swift; sourceTree = "<group>"; };
 		34A1719F1DE6F18D0054E1ED /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		34A171A21DE6F6290054E1ED /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		34A171A41DE6F6360054E1ED /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
@@ -328,9 +330,9 @@
 		34F495871DDF9F5D00DF791E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				34A1719D1DE6F0C00054E1ED /* User.swift */,
-				34946FD01DF3732A0038FEF0 /* Restaurant.swift */,
-				34946FD21DF38A5D0038FEF0 /* Location.swift */,
+				34A1719D1DE6F0C00054E1ED /* TBUser.swift */,
+				34946FD01DF3732A0038FEF0 /* TBRestaurant.swift */,
+				34946FD21DF38A5D0038FEF0 /* TBLocation.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -340,6 +342,7 @@
 			children = (
 				34A171991DE5FC3A0054E1ED /* Config.swift */,
 				34A1719B1DE60F330054E1ED /* DataAPI.swift */,
+				343CAEC01E77DD850027495F /* DataApiForTesting.swift */,
 				3466C6291E5B3A0600DA021A /* CoreDataStackManager.swift */,
 				34A1719F1DE6F18D0054E1ED /* Parser.swift */,
 				34A171A21DE6F6290054E1ED /* Error.swift */,
@@ -693,15 +696,16 @@
 				343C0E341DE8EFEF00B83950 /* DatePickerView.swift in Sources */,
 				3466C62A1E5B3A0600DA021A /* CoreDataStackManager.swift in Sources */,
 				34F495911DDFCB0600DF791E /* StartTabBarViewController.swift in Sources */,
-				34946FD11DF3732A0038FEF0 /* Restaurant.swift in Sources */,
-				34946FD31DF38A5D0038FEF0 /* Location.swift in Sources */,
+				34946FD11DF3732A0038FEF0 /* TBRestaurant.swift in Sources */,
+				34946FD31DF38A5D0038FEF0 /* TBLocation.swift in Sources */,
 				34172ACA1DE1C0730005EAAA /* FilterViewController.swift in Sources */,
 				34A1719C1DE60F330054E1ED /* DataAPI.swift in Sources */,
 				34A1719A1DE5FC3A0054E1ED /* Config.swift in Sources */,
+				343CAEC11E77DD850027495F /* DataApiForTesting.swift in Sources */,
 				34B63A8D1DEF428C00DC7B02 /* HistoryViewController.swift in Sources */,
 				34A171AB1DE86EF80054E1ED /* PeopleQtyPickerView.swift in Sources */,
 				34A171A31DE6F6290054E1ED /* Error.swift in Sources */,
-				34A1719E1DE6F0C00054E1ED /* User.swift in Sources */,
+				34A1719E1DE6F0C00054E1ED /* TBUser.swift in Sources */,
 				3415964A1DBCD92D00A5D68C /* TableBooking.xcdatamodeld in Sources */,
 				341596421DBCD92D00A5D68C /* AppDelegate.swift in Sources */,
 				34172AD51DE1F85E0005EAAA /* Numebers+Format.swift in Sources */,
